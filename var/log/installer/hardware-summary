@@ -1,0 +1,441 @@
+uname -a: Linux IV-SPLV-DEB001 3.16.0-4-586 #1 Debian 3.16.39-1 (2016-12-30) i686 GNU/Linux
+lspci -knn: 00:00.0 Host bridge [0600]: Intel Corporation 440BX/ZX/DX - 82443BX/ZX/DX Host bridge [8086:7190] (rev 01)
+lspci -knn: 	Subsystem: VMware Device [15ad:1976]
+lspci -knn: 	Kernel driver in use: agpgart-intel
+lspci -knn: 00:01.0 PCI bridge [0604]: Intel Corporation 440BX/ZX/DX - 82443BX/ZX/DX AGP bridge [8086:7191] (rev 01)
+lspci -knn: 00:07.0 ISA bridge [0601]: Intel Corporation 82371AB/EB/MB PIIX4 ISA [8086:7110] (rev 08)
+lspci -knn: 	Subsystem: VMware Device [15ad:1976]
+lspci -knn: 00:07.1 IDE interface [0101]: Intel Corporation 82371AB/EB/MB PIIX4 IDE [8086:7111] (rev 01)
+lspci -knn: 	Subsystem: VMware Device [15ad:1976]
+lspci -knn: 	Kernel driver in use: ata_piix
+lspci -knn: 00:07.3 Bridge [0680]: Intel Corporation 82371AB/EB/MB PIIX4 ACPI [8086:7113] (rev 08)
+lspci -knn: 	Subsystem: VMware Device [15ad:1976]
+lspci -knn: 00:07.7 System peripheral [0880]: VMware Virtual Machine Communication Interface [15ad:0740] (rev 10)
+lspci -knn: 	Subsystem: VMware Virtual Machine Communication Interface [15ad:0740]
+lspci -knn: 00:0f.0 VGA compatible controller [0300]: VMware SVGA II Adapter [15ad:0405]
+lspci -knn: 	Subsystem: VMware SVGA II Adapter [15ad:0405]
+lspci -knn: 00:11.0 PCI bridge [0604]: VMware PCI bridge [15ad:0790] (rev 02)
+lspci -knn: 00:15.0 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:15.1 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:15.2 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:15.3 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:15.4 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:15.5 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:15.6 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:15.7 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:16.0 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:16.1 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:16.2 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:16.3 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:16.4 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:16.5 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:16.6 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:16.7 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:17.0 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:17.1 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:17.2 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:17.3 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:17.4 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:17.5 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:17.6 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:17.7 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:18.0 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:18.1 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:18.2 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:18.3 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:18.4 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:18.5 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:18.6 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 00:18.7 PCI bridge [0604]: VMware PCI Express Root Port [15ad:07a0] (rev 01)
+lspci -knn: 	Kernel driver in use: pcieport
+lspci -knn: 03:00.0 Serial Attached SCSI controller [0107]: VMware PVSCSI SCSI Controller [15ad:07c0] (rev 02)
+lspci -knn: 	Subsystem: VMware PVSCSI SCSI Controller [15ad:07c0]
+lspci -knn: 	Kernel driver in use: vmw_pvscsi
+lspci -knn: 0b:00.0 Ethernet controller [0200]: VMware VMXNET3 Ethernet Controller [15ad:07b0] (rev 01)
+lspci -knn: 	Subsystem: VMware VMXNET3 Ethernet Controller [15ad:07b0]
+lspci -knn: 	Kernel driver in use: vmxnet3
+lspci -knn: 13:00.0 Ethernet controller [0200]: VMware VMXNET3 Ethernet Controller [15ad:07b0] (rev 01)
+lspci -knn: 	Subsystem: VMware VMXNET3 Ethernet Controller [15ad:07b0]
+lspci -knn: 	Kernel driver in use: vmxnet3
+lsmod: Module                  Size  Used by
+lsmod: fuse                   77518  0 
+lsmod: ntfs                  193581  0 
+lsmod: dm_mod                 78786  0 
+lsmod: md_mod                105814  0 
+lsmod: xfs                   687050  0 
+lsmod: libcrc32c              12394  1 xfs
+lsmod: jfs                   162645  0 
+lsmod: crc32c_generic         12576  2 
+lsmod: btrfs                 838045  0 
+lsmod: xor                    25716  1 btrfs
+lsmod: raid6_pq               95207  1 btrfs
+lsmod: vfat                   16967  0 
+lsmod: fat                    52640  1 vfat
+lsmod: ext4                  430281  1 
+lsmod: crc16                  12327  1 ext4
+lsmod: mbcache                12892  1 ext4
+lsmod: jbd2                   68855  1 ext4
+lsmod: sd_mod                 43684  3 
+lsmod: crc_t10dif             12399  1 sd_mod
+lsmod: crct10dif_common       12340  1 crc_t10dif
+lsmod: vmxnet3                47705  0 
+lsmod: vmw_pvscsi             21271  2 
+lsmod: nls_utf8               12416  1 
+lsmod: isofs                  38530  0 
+lsmod: sg                     25594  0 
+lsmod: sr_mod                 21568  0 
+lsmod: cdrom                  46828  1 sr_mod
+lsmod: ata_generic            12450  0 
+lsmod: ata_piix               29371  0 
+lsmod: libata                157813  2 ata_generic,ata_piix
+lsmod: scsi_mod              164243  5 sg,libata,vmw_pvscsi,sd_mod,sr_mod
+df: Filesystem           1K-blocks      Used Available Use% Mounted on
+df: none                    207276        48    207228   0% /run
+df: devtmpfs               1032956         0   1032956   0% /dev
+df: /dev/sda1             29526092    770560  27232640   3% /target
+df: /dev/sda1             29526092    770560  27232640   3% /dev/.static/dev
+df: devtmpfs               1032956         0   1032956   0% /target/dev
+free:              total         used         free       shared      buffers
+free: Mem:       2072740       998928      1073812            0       101808
+free: -/+ buffers:             897120      1175620
+free: Swap:      1324028            0      1324028
+/proc/cmdline: BOOT_IMAGE=/install.386/vmlinuz vga=788 initrd=/install.386/initrd.gz --- quiet 
+/proc/cpuinfo: processor	: 0
+/proc/cpuinfo: vendor_id	: GenuineIntel
+/proc/cpuinfo: cpu family	: 6
+/proc/cpuinfo: model		: 63
+/proc/cpuinfo: model name	: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+/proc/cpuinfo: stepping	: 2
+/proc/cpuinfo: microcode	: 0x38
+/proc/cpuinfo: cpu MHz		: 2397.223
+/proc/cpuinfo: cache size	: 15360 KB
+/proc/cpuinfo: fdiv_bug	: no
+/proc/cpuinfo: f00f_bug	: no
+/proc/cpuinfo: coma_bug	: no
+/proc/cpuinfo: fpu		: yes
+/proc/cpuinfo: fpu_exception	: yes
+/proc/cpuinfo: cpuid level	: 15
+/proc/cpuinfo: wp		: yes
+/proc/cpuinfo: flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ida arat epb xsaveopt pln pts dtherm fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid
+/proc/cpuinfo: bogomips	: 4794.44
+/proc/cpuinfo: clflush size	: 64
+/proc/cpuinfo: cache_alignment	: 64
+/proc/cpuinfo: address sizes	: 42 bits physical, 48 bits virtual
+/proc/cpuinfo: power management:
+/proc/cpuinfo: 
+/proc/ioports: 0000-0cf7 : PCI Bus 0000:00
+/proc/ioports:   0000-001f : dma1
+/proc/ioports:   0020-0021 : PNP0001:00
+/proc/ioports:     0020-0021 : pic1
+/proc/ioports:   0040-0043 : timer0
+/proc/ioports:   0050-0053 : timer1
+/proc/ioports:   0060-0060 : keyboard
+/proc/ioports:   0061-0061 : PNP0800:00
+/proc/ioports:   0064-0064 : keyboard
+/proc/ioports:   0070-0071 : rtc0
+/proc/ioports:   0080-008f : dma page reg
+/proc/ioports:   00a0-00a1 : PNP0001:00
+/proc/ioports:     00a0-00a1 : pic2
+/proc/ioports:   00c0-00df : dma2
+/proc/ioports:   00f0-00ff : fpu
+/proc/ioports:   0170-0177 : 0000:00:07.1
+/proc/ioports:     0170-0177 : ata_piix
+/proc/ioports:   01f0-01f7 : 0000:00:07.1
+/proc/ioports:     01f0-01f7 : ata_piix
+/proc/ioports:   0376-0376 : 0000:00:07.1
+/proc/ioports:     0376-0376 : ata_piix
+/proc/ioports:   03c0-03df : vesafb
+/proc/ioports:   03f6-03f6 : 0000:00:07.1
+/proc/ioports:     03f6-03f6 : ata_piix
+/proc/ioports:   04d0-04d1 : PNP0001:00
+/proc/ioports:   0cf0-0cf1 : pnp 00:00
+/proc/ioports: 0cf8-0cff : PCI conf1
+/proc/ioports: 0d00-feff : PCI Bus 0000:00
+/proc/ioports:   1000-103f : 0000:00:07.3
+/proc/ioports:     1000-103f : pnp 00:00
+/proc/ioports:       1000-1003 : ACPI PM1a_EVT_BLK
+/proc/ioports:       1004-1005 : ACPI PM1a_CNT_BLK
+/proc/ioports:       1008-100b : ACPI PM_TMR
+/proc/ioports:       100c-100f : ACPI GPE0_BLK
+/proc/ioports:   1040-104f : 0000:00:07.3
+/proc/ioports:     1040-104f : pnp 00:00
+/proc/ioports:   1060-106f : 0000:00:07.1
+/proc/ioports:     1060-106f : ata_piix
+/proc/ioports:   1070-107f : 0000:00:0f.0
+/proc/ioports:   1080-10bf : 0000:00:07.7
+/proc/ioports:   2000-3fff : PCI Bus 0000:02
+/proc/ioports:   4000-4fff : PCI Bus 0000:03
+/proc/ioports:     4000-4007 : 0000:03:00.0
+/proc/ioports:       4000-4007 : vmw_pvscsi
+/proc/ioports:   5000-5fff : PCI Bus 0000:0b
+/proc/ioports:     5000-500f : 0000:0b:00.0
+/proc/ioports:   6000-6fff : PCI Bus 0000:13
+/proc/ioports:     6000-600f : 0000:13:00.0
+/proc/ioports:   7000-7fff : PCI Bus 0000:1b
+/proc/ioports:   8000-8fff : PCI Bus 0000:04
+/proc/ioports:   9000-9fff : PCI Bus 0000:0c
+/proc/ioports:   a000-afff : PCI Bus 0000:14
+/proc/ioports:   b000-bfff : PCI Bus 0000:1c
+/proc/ioports:   c000-cfff : PCI Bus 0000:05
+/proc/ioports:   d000-dfff : PCI Bus 0000:0d
+/proc/ioports:   e000-efff : PCI Bus 0000:15
+/proc/ioports:   fce0-fcff : pnp 00:06
+/proc/iomem: 00000000-00000fff : reserved
+/proc/iomem: 00001000-0009f7ff : System RAM
+/proc/iomem: 0009f800-0009ffff : reserved
+/proc/iomem: 000a0000-000bffff : PCI Bus 0000:00
+/proc/iomem:   000a0000-000bffff : Video RAM area
+/proc/iomem: 000c0000-000c7fff : Video ROM
+/proc/iomem: 000ca000-000cafff : Adapter ROM
+/proc/iomem: 000cb000-000cbfff : Adapter ROM
+/proc/iomem: 000cc000-000cffff : PCI Bus 0000:00
+/proc/iomem: 000d0000-000d3fff : PCI Bus 0000:00
+/proc/iomem: 000d4000-000d7fff : PCI Bus 0000:00
+/proc/iomem: 000d8000-000dbfff : PCI Bus 0000:00
+/proc/iomem: 000dc000-000fffff : reserved
+/proc/iomem:   000f0000-000fffff : System ROM
+/proc/iomem: 00100000-7feeffff : System RAM
+/proc/iomem:   01000000-0142968f : Kernel code
+/proc/iomem:   01429690-01605aff : Kernel data
+/proc/iomem:   016af000-01716fff : Kernel bss
+/proc/iomem: 7fef0000-7fefefff : ACPI Tables
+/proc/iomem: 7feff000-7fefffff : ACPI Non-volatile Storage
+/proc/iomem: 7ff00000-7fffffff : System RAM
+/proc/iomem: 80000000-febfffff : PCI Bus 0000:00
+/proc/iomem:   80000000-801fffff : PCI Bus 0000:03
+/proc/iomem:   80200000-803fffff : PCI Bus 0000:0b
+/proc/iomem:   80400000-805fffff : PCI Bus 0000:13
+/proc/iomem:   80600000-80607fff : 0000:00:0f.0
+/proc/iomem:   e5e00000-e5efffff : PCI Bus 0000:22
+/proc/iomem:   e5f00000-e5ffffff : PCI Bus 0000:1a
+/proc/iomem:   e6000000-e60fffff : PCI Bus 0000:12
+/proc/iomem:   e6100000-e61fffff : PCI Bus 0000:0a
+/proc/iomem:   e6200000-e62fffff : PCI Bus 0000:21
+/proc/iomem:   e6300000-e63fffff : PCI Bus 0000:19
+/proc/iomem:   e6400000-e64fffff : PCI Bus 0000:11
+/proc/iomem:   e6500000-e65fffff : PCI Bus 0000:09
+/proc/iomem:   e6600000-e66fffff : PCI Bus 0000:20
+/proc/iomem:   e6700000-e67fffff : PCI Bus 0000:18
+/proc/iomem:   e6800000-e68fffff : PCI Bus 0000:10
+/proc/iomem:   e6900000-e69fffff : PCI Bus 0000:08
+/proc/iomem:   e6a00000-e6afffff : PCI Bus 0000:1f
+/proc/iomem:   e6b00000-e6bfffff : PCI Bus 0000:17
+/proc/iomem:   e6c00000-e6cfffff : PCI Bus 0000:0f
+/proc/iomem:   e6d00000-e6dfffff : PCI Bus 0000:07
+/proc/iomem:   e6e00000-e6efffff : PCI Bus 0000:1e
+/proc/iomem:   e6f00000-e6ffffff : PCI Bus 0000:16
+/proc/iomem:   e7000000-e70fffff : PCI Bus 0000:0e
+/proc/iomem:   e7100000-e71fffff : PCI Bus 0000:06
+/proc/iomem:   e7200000-e72fffff : PCI Bus 0000:1d
+/proc/iomem:   e7300000-e73fffff : PCI Bus 0000:15
+/proc/iomem:   e7400000-e74fffff : PCI Bus 0000:0d
+/proc/iomem:   e7500000-e75fffff : PCI Bus 0000:05
+/proc/iomem:   e7600000-e76fffff : PCI Bus 0000:1c
+/proc/iomem:   e7700000-e77fffff : PCI Bus 0000:14
+/proc/iomem:   e7800000-e78fffff : PCI Bus 0000:0c
+/proc/iomem:   e7900000-e79fffff : PCI Bus 0000:04
+/proc/iomem:   e7a00000-e7afffff : PCI Bus 0000:1b
+/proc/iomem:   e7b00000-e7ffffff : PCI Bus 0000:02
+/proc/iomem:   e8000000-efffffff : 0000:00:0f.0
+/proc/iomem:     e8000000-e87fffff : vesafb
+/proc/iomem:   f0000000-f7ffffff : PCI MMCONFIG 0000 [bus 00-7f]
+/proc/iomem:     f0000000-f7ffffff : reserved
+/proc/iomem:       f0000000-f7ffffff : pnp 00:06
+/proc/iomem:   fb600000-fb6fffff : PCI Bus 0000:22
+/proc/iomem:   fb700000-fb7fffff : PCI Bus 0000:1a
+/proc/iomem:   fb800000-fb8fffff : PCI Bus 0000:12
+/proc/iomem:   fb900000-fb9fffff : PCI Bus 0000:0a
+/proc/iomem:   fba00000-fbafffff : PCI Bus 0000:21
+/proc/iomem:   fbb00000-fbbfffff : PCI Bus 0000:19
+/proc/iomem:   fbc00000-fbcfffff : PCI Bus 0000:11
+/proc/iomem:   fbd00000-fbdfffff : PCI Bus 0000:09
+/proc/iomem:   fbe00000-fbefffff : PCI Bus 0000:20
+/proc/iomem:   fbf00000-fbffffff : PCI Bus 0000:18
+/proc/iomem:   fc000000-fc0fffff : PCI Bus 0000:10
+/proc/iomem:   fc100000-fc1fffff : PCI Bus 0000:08
+/proc/iomem:   fc200000-fc2fffff : PCI Bus 0000:1f
+/proc/iomem:   fc300000-fc3fffff : PCI Bus 0000:17
+/proc/iomem:   fc400000-fc4fffff : PCI Bus 0000:0f
+/proc/iomem:   fc500000-fc5fffff : PCI Bus 0000:07
+/proc/iomem:   fc600000-fc6fffff : PCI Bus 0000:1e
+/proc/iomem:   fc700000-fc7fffff : PCI Bus 0000:16
+/proc/iomem:   fc800000-fc8fffff : PCI Bus 0000:0e
+/proc/iomem:   fc900000-fc9fffff : PCI Bus 0000:06
+/proc/iomem:   fca00000-fcafffff : PCI Bus 0000:1d
+/proc/iomem:   fcb00000-fcbfffff : PCI Bus 0000:15
+/proc/iomem:   fcc00000-fccfffff : PCI Bus 0000:0d
+/proc/iomem:   fcd00000-fcdfffff : PCI Bus 0000:05
+/proc/iomem:   fce00000-fcefffff : PCI Bus 0000:1c
+/proc/iomem:   fcf00000-fcffffff : PCI Bus 0000:14
+/proc/iomem:   fd000000-fd0fffff : PCI Bus 0000:0c
+/proc/iomem:   fd100000-fd1fffff : PCI Bus 0000:04
+/proc/iomem:   fd200000-fd2fffff : PCI Bus 0000:1b
+/proc/iomem:   fd300000-fd3fffff : PCI Bus 0000:13
+/proc/iomem:     fd300000-fd30ffff : 0000:13:00.0
+/proc/iomem:     fd3fc000-fd3fcfff : 0000:13:00.0
+/proc/iomem:       fd3fc000-fd3fcfff : vmxnet3
+/proc/iomem:     fd3fd000-fd3fdfff : 0000:13:00.0
+/proc/iomem:       fd3fd000-fd3fdfff : vmxnet3
+/proc/iomem:     fd3fe000-fd3fffff : 0000:13:00.0
+/proc/iomem:   fd400000-fd4fffff : PCI Bus 0000:0b
+/proc/iomem:     fd400000-fd40ffff : 0000:0b:00.0
+/proc/iomem:     fd4fc000-fd4fcfff : 0000:0b:00.0
+/proc/iomem:       fd4fc000-fd4fcfff : vmxnet3
+/proc/iomem:     fd4fd000-fd4fdfff : 0000:0b:00.0
+/proc/iomem:       fd4fd000-fd4fdfff : vmxnet3
+/proc/iomem:     fd4fe000-fd4fffff : 0000:0b:00.0
+/proc/iomem:   fd500000-fd5fffff : PCI Bus 0000:03
+/proc/iomem:     fd500000-fd50ffff : 0000:03:00.0
+/proc/iomem:     fd5f8000-fd5fffff : 0000:03:00.0
+/proc/iomem:       fd5f8000-fd5fffff : vmw_pvscsi
+/proc/iomem:   fd600000-fdffffff : PCI Bus 0000:02
+/proc/iomem:   fe000000-fe7fffff : 0000:00:0f.0
+/proc/iomem:   fe800000-fe9fffff : pnp 00:06
+/proc/iomem:   febfe000-febfffff : 0000:00:07.7
+/proc/iomem: fec00000-fec0ffff : reserved
+/proc/iomem:   fec00000-fec003ff : IOAPIC 0
+/proc/iomem: fed00000-fed003ff : HPET 0
+/proc/iomem:   fed00000-fed003ff : pnp 00:04
+/proc/iomem: fee00000-fee00fff : Local APIC
+/proc/iomem:   fee00000-fee00fff : reserved
+/proc/iomem: fffe0000-ffffffff : reserved
+/proc/interrupts:            CPU0       
+/proc/interrupts:   0:         15   IO-APIC-edge      timer
+/proc/interrupts:   1:        846   IO-APIC-edge      i8042
+/proc/interrupts:   8:          1   IO-APIC-edge      rtc0
+/proc/interrupts:   9:          0   IO-APIC-fasteoi   acpi
+/proc/interrupts:  12:          4   IO-APIC-edge      i8042
+/proc/interrupts:  14:          0   IO-APIC-edge      ata_piix
+/proc/interrupts:  15:       7129   IO-APIC-edge      ata_piix
+/proc/interrupts:  40:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  41:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  42:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  43:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  44:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  45:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  46:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  47:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  48:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  49:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  50:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  51:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  52:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  53:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  54:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  55:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  56:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  57:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  58:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  59:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  60:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  61:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  62:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  63:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  64:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  65:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  66:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  67:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  68:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  69:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  70:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  71:          0   PCI-MSI-edge      PCIe PME, pciehp
+/proc/interrupts:  72:        200   PCI-MSI-edge      eth0-rxtx-0
+/proc/interrupts:  73:          0   PCI-MSI-edge      eth0-event-1
+/proc/interrupts:  74:      84110   PCI-MSI-edge      vmw_pvscsi
+/proc/interrupts: NMI:          0   Non-maskable interrupts
+/proc/interrupts: LOC:     366688   Local timer interrupts
+/proc/interrupts: SPU:          0   Spurious interrupts
+/proc/interrupts: PMI:          0   Performance monitoring interrupts
+/proc/interrupts: IWI:          1   IRQ work interrupts
+/proc/interrupts: RTR:          0   APIC ICR read retries
+/proc/interrupts: HYP:          0   Hypervisor callback interrupts
+/proc/interrupts: ERR:          0
+/proc/interrupts: MIS:          0
+/proc/meminfo: MemTotal:        2072740 kB
+/proc/meminfo: MemFree:         1073812 kB
+/proc/meminfo: MemAvailable:    1919184 kB
+/proc/meminfo: Buffers:          101808 kB
+/proc/meminfo: Cached:           804532 kB
+/proc/meminfo: SwapCached:            0 kB
+/proc/meminfo: Active:           438016 kB
+/proc/meminfo: Inactive:         487336 kB
+/proc/meminfo: Active(anon):      70596 kB
+/proc/meminfo: Inactive(anon):    41416 kB
+/proc/meminfo: Active(file):     367420 kB
+/proc/meminfo: Inactive(file):   445920 kB
+/proc/meminfo: Unevictable:           0 kB
+/proc/meminfo: Mlocked:               0 kB
+/proc/meminfo: HighTotal:       1187784 kB
+/proc/meminfo: HighFree:         682484 kB
+/proc/meminfo: LowTotal:         884956 kB
+/proc/meminfo: LowFree:          391328 kB
+/proc/meminfo: SwapTotal:       1324028 kB
+/proc/meminfo: SwapFree:        1324028 kB
+/proc/meminfo: Dirty:               732 kB
+/proc/meminfo: Writeback:             0 kB
+/proc/meminfo: AnonPages:         19032 kB
+/proc/meminfo: Mapped:             4328 kB
+/proc/meminfo: Shmem:             93004 kB
+/proc/meminfo: Slab:              59636 kB
+/proc/meminfo: SReclaimable:      51808 kB
+/proc/meminfo: SUnreclaim:         7828 kB
+/proc/meminfo: KernelStack:         512 kB
+/proc/meminfo: PageTables:          304 kB
+/proc/meminfo: NFS_Unstable:          0 kB
+/proc/meminfo: Bounce:                0 kB
+/proc/meminfo: WritebackTmp:          0 kB
+/proc/meminfo: CommitLimit:     2360396 kB
+/proc/meminfo: Committed_AS:     116588 kB
+/proc/meminfo: VmallocTotal:     122880 kB
+/proc/meminfo: VmallocUsed:       11032 kB
+/proc/meminfo: VmallocChunk:     110464 kB
+/proc/meminfo: HugePages_Total:       0
+/proc/meminfo: HugePages_Free:        0
+/proc/meminfo: HugePages_Rsvd:        0
+/proc/meminfo: HugePages_Surp:        0
+/proc/meminfo: Hugepagesize:       4096 kB
+/proc/meminfo: DirectMap4k:       24568 kB
+/proc/meminfo: DirectMap4M:      884736 kB
+/proc/bus/input/devices: I: Bus=0011 Vendor=0001 Product=0001 Version=ab41
+/proc/bus/input/devices: N: Name="AT Translated Set 2 keyboard"
+/proc/bus/input/devices: P: Phys=isa0060/serio0/input0
+/proc/bus/input/devices: S: Sysfs=/devices/platform/i8042/serio0/input/input0
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=sysrq kbd 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=120013
+/proc/bus/input/devices: B: KEY=4 2000000 3803078 f800d001 feffffdf ffefffff ffffffff fffffffe
+/proc/bus/input/devices: B: MSC=10
+/proc/bus/input/devices: B: LED=7
+/proc/bus/input/devices: 

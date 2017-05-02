@@ -1,0 +1,525 @@
+Apr 30 06:25:02 iv-splv-link CRON[3871]: pam_unix(cron:session): session closed for user root
+Apr 30 06:39:01 iv-splv-link CRON[4104]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 06:39:01 iv-splv-link CRON[4104]: pam_unix(cron:session): session closed for user root
+Apr 30 06:47:01 iv-splv-link CRON[4141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 06:47:02 iv-splv-link CRON[4141]: pam_unix(cron:session): session closed for user root
+Apr 30 07:09:01 iv-splv-link CRON[4173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 07:09:01 iv-splv-link CRON[4173]: pam_unix(cron:session): session closed for user root
+Apr 30 07:17:01 iv-splv-link CRON[4216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 07:17:01 iv-splv-link CRON[4216]: pam_unix(cron:session): session closed for user root
+Apr 30 07:39:01 iv-splv-link CRON[4237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 07:39:01 iv-splv-link CRON[4237]: pam_unix(cron:session): session closed for user root
+Apr 30 08:09:01 iv-splv-link CRON[4305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 08:09:01 iv-splv-link CRON[4305]: pam_unix(cron:session): session closed for user root
+Apr 30 08:17:01 iv-splv-link CRON[4348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 08:17:01 iv-splv-link CRON[4348]: pam_unix(cron:session): session closed for user root
+Apr 30 08:39:01 iv-splv-link CRON[4370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 08:39:01 iv-splv-link CRON[4370]: pam_unix(cron:session): session closed for user root
+Apr 30 09:09:01 iv-splv-link CRON[4431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 09:09:01 iv-splv-link CRON[4431]: pam_unix(cron:session): session closed for user root
+Apr 30 09:17:01 iv-splv-link CRON[4474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 09:17:01 iv-splv-link CRON[4474]: pam_unix(cron:session): session closed for user root
+Apr 30 09:39:01 iv-splv-link CRON[4502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 09:39:01 iv-splv-link CRON[4502]: pam_unix(cron:session): session closed for user root
+Apr 30 10:09:01 iv-splv-link CRON[4564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 10:09:01 iv-splv-link CRON[4564]: pam_unix(cron:session): session closed for user root
+Apr 30 10:17:01 iv-splv-link CRON[4607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 10:17:01 iv-splv-link CRON[4607]: pam_unix(cron:session): session closed for user root
+Apr 30 10:39:01 iv-splv-link CRON[4635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 10:39:01 iv-splv-link CRON[4635]: pam_unix(cron:session): session closed for user root
+Apr 30 11:09:01 iv-splv-link CRON[4696]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 11:09:01 iv-splv-link CRON[4696]: pam_unix(cron:session): session closed for user root
+Apr 30 11:17:01 iv-splv-link CRON[4739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 11:17:01 iv-splv-link CRON[4739]: pam_unix(cron:session): session closed for user root
+Apr 30 11:39:01 iv-splv-link CRON[4760]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 11:39:01 iv-splv-link CRON[4760]: pam_unix(cron:session): session closed for user root
+Apr 30 12:09:01 iv-splv-link CRON[4829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 12:09:01 iv-splv-link CRON[4829]: pam_unix(cron:session): session closed for user root
+Apr 30 12:17:01 iv-splv-link CRON[4872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 12:17:01 iv-splv-link CRON[4872]: pam_unix(cron:session): session closed for user root
+Apr 30 12:39:01 iv-splv-link CRON[4893]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 12:39:01 iv-splv-link CRON[4893]: pam_unix(cron:session): session closed for user root
+Apr 30 13:09:01 iv-splv-link CRON[4954]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 13:09:01 iv-splv-link CRON[4954]: pam_unix(cron:session): session closed for user root
+Apr 30 13:17:01 iv-splv-link CRON[4997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 13:17:01 iv-splv-link CRON[4997]: pam_unix(cron:session): session closed for user root
+Apr 30 13:39:01 iv-splv-link CRON[5026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 13:39:01 iv-splv-link CRON[5026]: pam_unix(cron:session): session closed for user root
+Apr 30 14:09:01 iv-splv-link CRON[5087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 14:09:01 iv-splv-link CRON[5087]: pam_unix(cron:session): session closed for user root
+Apr 30 14:17:01 iv-splv-link CRON[5130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 14:17:01 iv-splv-link CRON[5130]: pam_unix(cron:session): session closed for user root
+Apr 30 14:39:01 iv-splv-link CRON[5158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 14:39:02 iv-splv-link CRON[5158]: pam_unix(cron:session): session closed for user root
+Apr 30 15:09:01 iv-splv-link CRON[5220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 15:09:01 iv-splv-link CRON[5220]: pam_unix(cron:session): session closed for user root
+Apr 30 15:17:01 iv-splv-link CRON[5263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 15:17:01 iv-splv-link CRON[5263]: pam_unix(cron:session): session closed for user root
+Apr 30 15:39:01 iv-splv-link CRON[5284]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 15:39:01 iv-splv-link CRON[5284]: pam_unix(cron:session): session closed for user root
+Apr 30 16:09:01 iv-splv-link CRON[5352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 16:09:01 iv-splv-link CRON[5352]: pam_unix(cron:session): session closed for user root
+Apr 30 16:17:01 iv-splv-link CRON[5395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 16:17:01 iv-splv-link CRON[5395]: pam_unix(cron:session): session closed for user root
+Apr 30 16:39:01 iv-splv-link CRON[5416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 16:39:01 iv-splv-link CRON[5416]: pam_unix(cron:session): session closed for user root
+Apr 30 17:09:01 iv-splv-link CRON[5480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 17:09:01 iv-splv-link CRON[5480]: pam_unix(cron:session): session closed for user root
+Apr 30 17:17:01 iv-splv-link CRON[5522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 17:17:01 iv-splv-link CRON[5522]: pam_unix(cron:session): session closed for user root
+Apr 30 17:39:01 iv-splv-link CRON[5551]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 17:39:01 iv-splv-link CRON[5551]: pam_unix(cron:session): session closed for user root
+Apr 30 18:09:01 iv-splv-link CRON[5612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 18:09:01 iv-splv-link CRON[5612]: pam_unix(cron:session): session closed for user root
+Apr 30 18:17:01 iv-splv-link CRON[5654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 18:17:01 iv-splv-link CRON[5654]: pam_unix(cron:session): session closed for user root
+Apr 30 18:39:01 iv-splv-link CRON[5684]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 18:39:01 iv-splv-link CRON[5684]: pam_unix(cron:session): session closed for user root
+Apr 30 19:09:01 iv-splv-link CRON[5745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 19:09:01 iv-splv-link CRON[5745]: pam_unix(cron:session): session closed for user root
+Apr 30 19:17:01 iv-splv-link CRON[5787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 19:17:01 iv-splv-link CRON[5787]: pam_unix(cron:session): session closed for user root
+Apr 30 19:39:01 iv-splv-link CRON[5809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 19:39:01 iv-splv-link CRON[5809]: pam_unix(cron:session): session closed for user root
+Apr 30 20:09:01 iv-splv-link CRON[5878]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 20:09:01 iv-splv-link CRON[5878]: pam_unix(cron:session): session closed for user root
+Apr 30 20:17:01 iv-splv-link CRON[5920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 20:17:01 iv-splv-link CRON[5920]: pam_unix(cron:session): session closed for user root
+Apr 30 20:39:01 iv-splv-link CRON[5942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 20:39:01 iv-splv-link CRON[5942]: pam_unix(cron:session): session closed for user root
+Apr 30 21:09:01 iv-splv-link CRON[6003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 21:09:01 iv-splv-link CRON[6003]: pam_unix(cron:session): session closed for user root
+Apr 30 21:17:01 iv-splv-link CRON[6045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 21:17:01 iv-splv-link CRON[6045]: pam_unix(cron:session): session closed for user root
+Apr 30 21:39:01 iv-splv-link CRON[6074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 21:39:01 iv-splv-link CRON[6074]: pam_unix(cron:session): session closed for user root
+Apr 30 22:09:01 iv-splv-link CRON[6136]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 22:09:01 iv-splv-link CRON[6136]: pam_unix(cron:session): session closed for user root
+Apr 30 22:17:01 iv-splv-link CRON[6178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 22:17:01 iv-splv-link CRON[6178]: pam_unix(cron:session): session closed for user root
+Apr 30 22:39:01 iv-splv-link CRON[6207]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 22:39:01 iv-splv-link CRON[6207]: pam_unix(cron:session): session closed for user root
+Apr 30 23:09:01 iv-splv-link CRON[6268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 23:09:01 iv-splv-link CRON[6268]: pam_unix(cron:session): session closed for user root
+Apr 30 23:17:01 iv-splv-link CRON[6310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 23:17:01 iv-splv-link CRON[6310]: pam_unix(cron:session): session closed for user root
+Apr 30 23:39:01 iv-splv-link CRON[6333]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 30 23:39:01 iv-splv-link CRON[6333]: pam_unix(cron:session): session closed for user root
+May  1 00:09:01 iv-splv-link CRON[6401]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 00:09:01 iv-splv-link CRON[6401]: pam_unix(cron:session): session closed for user root
+May  1 00:17:01 iv-splv-link CRON[6443]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 00:17:01 iv-splv-link CRON[6443]: pam_unix(cron:session): session closed for user root
+May  1 00:39:01 iv-splv-link CRON[6465]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 00:39:02 iv-splv-link CRON[6465]: pam_unix(cron:session): session closed for user root
+May  1 01:09:01 iv-splv-link CRON[6527]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 01:09:01 iv-splv-link CRON[6527]: pam_unix(cron:session): session closed for user root
+May  1 01:17:01 iv-splv-link CRON[6569]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 01:17:01 iv-splv-link CRON[6569]: pam_unix(cron:session): session closed for user root
+May  1 01:39:01 iv-splv-link CRON[6598]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 01:39:01 iv-splv-link CRON[6598]: pam_unix(cron:session): session closed for user root
+May  1 02:09:01 iv-splv-link CRON[6658]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 02:09:01 iv-splv-link CRON[6658]: pam_unix(cron:session): session closed for user root
+May  1 02:17:01 iv-splv-link CRON[6701]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 02:17:01 iv-splv-link CRON[6701]: pam_unix(cron:session): session closed for user root
+May  1 02:39:01 iv-splv-link CRON[6729]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 02:39:01 iv-splv-link CRON[6729]: pam_unix(cron:session): session closed for user root
+May  1 03:09:01 iv-splv-link CRON[6791]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 03:09:01 iv-splv-link CRON[6791]: pam_unix(cron:session): session closed for user root
+May  1 03:17:01 iv-splv-link CRON[6834]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 03:17:01 iv-splv-link CRON[6834]: pam_unix(cron:session): session closed for user root
+May  1 03:39:01 iv-splv-link CRON[6855]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 03:39:01 iv-splv-link CRON[6855]: pam_unix(cron:session): session closed for user root
+May  1 04:09:01 iv-splv-link CRON[6923]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 04:09:01 iv-splv-link CRON[6923]: pam_unix(cron:session): session closed for user root
+May  1 04:17:01 iv-splv-link CRON[6966]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 04:17:01 iv-splv-link CRON[6966]: pam_unix(cron:session): session closed for user root
+May  1 04:39:01 iv-splv-link CRON[6988]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 04:39:01 iv-splv-link CRON[6988]: pam_unix(cron:session): session closed for user root
+May  1 05:09:01 iv-splv-link CRON[7049]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 05:09:01 iv-splv-link CRON[7049]: pam_unix(cron:session): session closed for user root
+May  1 05:17:01 iv-splv-link CRON[7092]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 05:17:01 iv-splv-link CRON[7092]: pam_unix(cron:session): session closed for user root
+May  1 05:39:01 iv-splv-link CRON[7120]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 05:39:01 iv-splv-link CRON[7120]: pam_unix(cron:session): session closed for user root
+May  1 06:09:01 iv-splv-link CRON[7182]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 06:09:01 iv-splv-link CRON[7182]: pam_unix(cron:session): session closed for user root
+May  1 06:17:01 iv-splv-link CRON[7225]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 06:17:01 iv-splv-link CRON[7225]: pam_unix(cron:session): session closed for user root
+May  1 06:25:01 iv-splv-link CRON[7237]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 06:25:02 iv-splv-link CRON[7237]: pam_unix(cron:session): session closed for user root
+May  1 06:39:01 iv-splv-link CRON[7406]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 06:39:01 iv-splv-link CRON[7406]: pam_unix(cron:session): session closed for user root
+May  1 06:52:01 iv-splv-link CRON[7450]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 06:52:01 iv-splv-link CRON[7450]: pam_unix(cron:session): session closed for user root
+May  1 07:09:01 iv-splv-link CRON[7470]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 07:09:01 iv-splv-link CRON[7470]: pam_unix(cron:session): session closed for user root
+May  1 07:17:01 iv-splv-link CRON[7513]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 07:17:01 iv-splv-link CRON[7513]: pam_unix(cron:session): session closed for user root
+May  1 07:39:01 iv-splv-link CRON[7534]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 07:39:01 iv-splv-link CRON[7534]: pam_unix(cron:session): session closed for user root
+May  1 08:09:01 iv-splv-link CRON[7603]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 08:09:01 iv-splv-link CRON[7603]: pam_unix(cron:session): session closed for user root
+May  1 08:17:01 iv-splv-link CRON[7646]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 08:17:01 iv-splv-link CRON[7646]: pam_unix(cron:session): session closed for user root
+May  1 08:39:01 iv-splv-link CRON[7667]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 08:39:01 iv-splv-link CRON[7667]: pam_unix(cron:session): session closed for user root
+May  1 09:09:01 iv-splv-link CRON[7728]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 09:09:01 iv-splv-link CRON[7728]: pam_unix(cron:session): session closed for user root
+May  1 09:17:01 iv-splv-link CRON[7771]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 09:17:01 iv-splv-link CRON[7771]: pam_unix(cron:session): session closed for user root
+May  1 09:39:01 iv-splv-link CRON[7800]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 09:39:01 iv-splv-link CRON[7800]: pam_unix(cron:session): session closed for user root
+May  1 10:09:01 iv-splv-link CRON[7861]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 10:09:01 iv-splv-link CRON[7861]: pam_unix(cron:session): session closed for user root
+May  1 10:17:01 iv-splv-link CRON[7904]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 10:17:01 iv-splv-link CRON[7904]: pam_unix(cron:session): session closed for user root
+May  1 10:39:01 iv-splv-link CRON[7932]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 10:39:01 iv-splv-link CRON[7932]: pam_unix(cron:session): session closed for user root
+May  1 11:09:01 iv-splv-link CRON[7994]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 11:09:01 iv-splv-link CRON[7994]: pam_unix(cron:session): session closed for user root
+May  1 11:17:01 iv-splv-link CRON[8037]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 11:17:01 iv-splv-link CRON[8037]: pam_unix(cron:session): session closed for user root
+May  1 11:39:01 iv-splv-link CRON[8058]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 11:39:01 iv-splv-link CRON[8058]: pam_unix(cron:session): session closed for user root
+May  1 12:09:01 iv-splv-link CRON[8126]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 12:09:01 iv-splv-link CRON[8126]: pam_unix(cron:session): session closed for user root
+May  1 12:17:01 iv-splv-link CRON[8169]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 12:17:01 iv-splv-link CRON[8169]: pam_unix(cron:session): session closed for user root
+May  1 12:39:01 iv-splv-link CRON[8190]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 12:39:01 iv-splv-link CRON[8190]: pam_unix(cron:session): session closed for user root
+May  1 13:09:02 iv-splv-link CRON[8259]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 13:09:02 iv-splv-link CRON[8259]: pam_unix(cron:session): session closed for user root
+May  1 13:17:01 iv-splv-link CRON[8295]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 13:17:01 iv-splv-link CRON[8295]: pam_unix(cron:session): session closed for user root
+May  1 13:39:01 iv-splv-link CRON[8323]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 13:39:01 iv-splv-link CRON[8323]: pam_unix(cron:session): session closed for user root
+May  1 14:09:01 iv-splv-link CRON[8384]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 14:09:01 iv-splv-link CRON[8384]: pam_unix(cron:session): session closed for user root
+May  1 14:17:01 iv-splv-link CRON[8427]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 14:17:01 iv-splv-link CRON[8427]: pam_unix(cron:session): session closed for user root
+May  1 14:39:01 iv-splv-link CRON[8456]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 14:39:01 iv-splv-link CRON[8456]: pam_unix(cron:session): session closed for user root
+May  1 15:09:01 iv-splv-link CRON[8517]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 15:09:01 iv-splv-link CRON[8517]: pam_unix(cron:session): session closed for user root
+May  1 15:17:01 iv-splv-link CRON[8560]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 15:17:01 iv-splv-link CRON[8560]: pam_unix(cron:session): session closed for user root
+May  1 15:39:01 iv-splv-link CRON[8581]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 15:39:01 iv-splv-link CRON[8581]: pam_unix(cron:session): session closed for user root
+May  1 16:09:01 iv-splv-link CRON[8650]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 16:09:01 iv-splv-link CRON[8650]: pam_unix(cron:session): session closed for user root
+May  1 16:17:01 iv-splv-link CRON[8692]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 16:17:01 iv-splv-link CRON[8692]: pam_unix(cron:session): session closed for user root
+May  1 16:39:01 iv-splv-link CRON[8714]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 16:39:01 iv-splv-link CRON[8714]: pam_unix(cron:session): session closed for user root
+May  1 17:09:01 iv-splv-link CRON[8784]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 17:09:01 iv-splv-link CRON[8784]: pam_unix(cron:session): session closed for user root
+May  1 17:11:34 iv-splv-link sshd[8818]: Did not receive identification string from 90.92.23.101
+May  1 17:11:50 iv-splv-link sshd[8819]: Bad protocol version identification 'GET / HTTP/1.1' from 90.92.23.101 port 54049
+May  1 17:11:50 iv-splv-link sshd[8820]: Bad protocol version identification 'GET / HTTP/1.1' from 90.92.23.101 port 54050
+May  1 17:11:50 iv-splv-link sshd[8821]: Bad protocol version identification 'GET / HTTP/1.1' from 90.92.23.101 port 54051
+May  1 17:17:01 iv-splv-link CRON[8823]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 17:17:01 iv-splv-link CRON[8823]: pam_unix(cron:session): session closed for user root
+May  1 17:39:01 iv-splv-link CRON[8852]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 17:39:01 iv-splv-link CRON[8852]: pam_unix(cron:session): session closed for user root
+May  1 18:09:01 iv-splv-link CRON[8914]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 18:09:01 iv-splv-link CRON[8914]: pam_unix(cron:session): session closed for user root
+May  1 18:17:01 iv-splv-link CRON[8956]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 18:17:01 iv-splv-link CRON[8956]: pam_unix(cron:session): session closed for user root
+May  1 18:39:01 iv-splv-link CRON[8985]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 18:39:01 iv-splv-link CRON[8985]: pam_unix(cron:session): session closed for user root
+May  1 19:09:01 iv-splv-link CRON[9046]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 19:09:01 iv-splv-link CRON[9046]: pam_unix(cron:session): session closed for user root
+May  1 19:17:01 iv-splv-link CRON[9088]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 19:17:01 iv-splv-link CRON[9088]: pam_unix(cron:session): session closed for user root
+May  1 19:39:01 iv-splv-link CRON[9111]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 19:39:01 iv-splv-link CRON[9111]: pam_unix(cron:session): session closed for user root
+May  1 20:09:01 iv-splv-link CRON[9179]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 20:09:01 iv-splv-link CRON[9179]: pam_unix(cron:session): session closed for user root
+May  1 20:17:01 iv-splv-link CRON[9221]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 20:17:01 iv-splv-link CRON[9221]: pam_unix(cron:session): session closed for user root
+May  1 20:39:01 iv-splv-link CRON[9243]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 20:39:01 iv-splv-link CRON[9243]: pam_unix(cron:session): session closed for user root
+May  1 21:09:01 iv-splv-link CRON[9312]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 21:09:01 iv-splv-link CRON[9312]: pam_unix(cron:session): session closed for user root
+May  1 21:17:01 iv-splv-link CRON[9354]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 21:17:01 iv-splv-link CRON[9354]: pam_unix(cron:session): session closed for user root
+May  1 21:39:01 iv-splv-link CRON[9376]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 21:39:01 iv-splv-link CRON[9376]: pam_unix(cron:session): session closed for user root
+May  1 22:09:01 iv-splv-link CRON[9437]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 22:09:01 iv-splv-link CRON[9437]: pam_unix(cron:session): session closed for user root
+May  1 22:17:01 iv-splv-link CRON[9479]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 22:17:01 iv-splv-link CRON[9479]: pam_unix(cron:session): session closed for user root
+May  1 22:39:01 iv-splv-link CRON[9508]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 22:39:01 iv-splv-link CRON[9508]: pam_unix(cron:session): session closed for user root
+May  1 23:09:01 iv-splv-link CRON[9570]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 23:09:02 iv-splv-link CRON[9570]: pam_unix(cron:session): session closed for user root
+May  1 23:17:01 iv-splv-link CRON[9612]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 23:17:01 iv-splv-link CRON[9612]: pam_unix(cron:session): session closed for user root
+May  1 23:39:01 iv-splv-link CRON[9634]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 23:39:01 iv-splv-link CRON[9634]: pam_unix(cron:session): session closed for user root
+May  2 00:09:01 iv-splv-link CRON[9702]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 00:09:01 iv-splv-link CRON[9702]: pam_unix(cron:session): session closed for user root
+May  2 00:17:01 iv-splv-link CRON[9744]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 00:17:01 iv-splv-link CRON[9744]: pam_unix(cron:session): session closed for user root
+May  2 00:39:01 iv-splv-link CRON[9767]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 00:39:01 iv-splv-link CRON[9767]: pam_unix(cron:session): session closed for user root
+May  2 01:09:01 iv-splv-link CRON[9835]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 01:09:01 iv-splv-link CRON[9835]: pam_unix(cron:session): session closed for user root
+May  2 01:17:01 iv-splv-link CRON[9870]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 01:17:01 iv-splv-link CRON[9870]: pam_unix(cron:session): session closed for user root
+May  2 01:39:01 iv-splv-link CRON[9898]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 01:39:01 iv-splv-link CRON[9898]: pam_unix(cron:session): session closed for user root
+May  2 02:09:01 iv-splv-link CRON[9960]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 02:09:01 iv-splv-link CRON[9960]: pam_unix(cron:session): session closed for user root
+May  2 02:17:01 iv-splv-link CRON[10003]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 02:17:01 iv-splv-link CRON[10003]: pam_unix(cron:session): session closed for user root
+May  2 02:39:01 iv-splv-link CRON[10031]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 02:39:01 iv-splv-link CRON[10031]: pam_unix(cron:session): session closed for user root
+May  2 03:09:01 iv-splv-link CRON[10092]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 03:09:01 iv-splv-link CRON[10092]: pam_unix(cron:session): session closed for user root
+May  2 03:17:01 iv-splv-link CRON[10135]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 03:17:01 iv-splv-link CRON[10135]: pam_unix(cron:session): session closed for user root
+May  2 03:39:01 iv-splv-link CRON[10156]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 03:39:01 iv-splv-link CRON[10156]: pam_unix(cron:session): session closed for user root
+May  2 04:09:01 iv-splv-link CRON[10225]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 04:09:01 iv-splv-link CRON[10225]: pam_unix(cron:session): session closed for user root
+May  2 04:17:01 iv-splv-link CRON[10268]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 04:17:01 iv-splv-link CRON[10268]: pam_unix(cron:session): session closed for user root
+May  2 04:39:01 iv-splv-link CRON[10289]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 04:39:01 iv-splv-link CRON[10289]: pam_unix(cron:session): session closed for user root
+May  2 05:09:01 iv-splv-link CRON[10357]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 05:09:01 iv-splv-link CRON[10357]: pam_unix(cron:session): session closed for user root
+May  2 05:17:01 iv-splv-link CRON[10400]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 05:17:01 iv-splv-link CRON[10400]: pam_unix(cron:session): session closed for user root
+May  2 05:39:01 iv-splv-link CRON[10422]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 05:39:01 iv-splv-link CRON[10422]: pam_unix(cron:session): session closed for user root
+May  2 06:09:01 iv-splv-link CRON[10483]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 06:09:01 iv-splv-link CRON[10483]: pam_unix(cron:session): session closed for user root
+May  2 06:17:01 iv-splv-link CRON[10526]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 06:17:01 iv-splv-link CRON[10526]: pam_unix(cron:session): session closed for user root
+May  2 06:25:01 iv-splv-link CRON[10537]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 06:25:02 iv-splv-link CRON[10537]: pam_unix(cron:session): session closed for user root
+May  2 06:39:01 iv-splv-link CRON[10704]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 06:39:01 iv-splv-link CRON[10704]: pam_unix(cron:session): session closed for user root
+May  2 07:09:01 iv-splv-link CRON[10766]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 07:09:01 iv-splv-link CRON[10766]: pam_unix(cron:session): session closed for user root
+May  2 07:17:01 iv-splv-link CRON[10809]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 07:17:01 iv-splv-link CRON[10809]: pam_unix(cron:session): session closed for user root
+May  2 07:39:01 iv-splv-link CRON[10837]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 07:39:01 iv-splv-link CRON[10837]: pam_unix(cron:session): session closed for user root
+May  2 08:09:01 iv-splv-link CRON[10898]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 08:09:01 iv-splv-link CRON[10898]: pam_unix(cron:session): session closed for user root
+May  2 08:17:01 iv-splv-link CRON[10941]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 08:17:01 iv-splv-link CRON[10941]: pam_unix(cron:session): session closed for user root
+May  2 08:39:01 iv-splv-link CRON[10962]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 08:39:01 iv-splv-link CRON[10962]: pam_unix(cron:session): session closed for user root
+May  2 08:53:06 iv-splv-link sshd[11014]: Address 92.103.197.250 maps to reverse.completel.net, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+May  2 08:53:06 iv-splv-link sshd[11014]: Accepted publickey for root from 92.103.197.250 port 62682 ssh2: RSA ab:d3:e1:c0:02:1d:6c:b7:4b:45:fc:a3:a3:d6:f6:39
+May  2 08:53:06 iv-splv-link sshd[11014]: pam_unix(sshd:session): session opened for user root by (uid=0)
+May  2 09:09:01 iv-splv-link CRON[11053]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 09:09:02 iv-splv-link CRON[11053]: pam_unix(cron:session): session closed for user root
+May  2 09:17:01 iv-splv-link CRON[11097]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 09:17:01 iv-splv-link CRON[11097]: pam_unix(cron:session): session closed for user root
+May  2 09:39:01 iv-splv-link CRON[11229]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 09:39:01 iv-splv-link CRON[11229]: pam_unix(cron:session): session closed for user root
+May  2 10:09:01 iv-splv-link CRON[11682]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 10:09:01 iv-splv-link CRON[11682]: pam_unix(cron:session): session closed for user root
+May  2 10:12:58 iv-splv-link sshd[11731]: Address 92.103.197.250 maps to reverse.completel.net, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+May  2 10:12:58 iv-splv-link sshd[11731]: Accepted publickey for root from 92.103.197.250 port 64060 ssh2: RSA ab:d3:e1:c0:02:1d:6c:b7:4b:45:fc:a3:a3:d6:f6:39
+May  2 10:12:58 iv-splv-link sshd[11731]: pam_unix(sshd:session): session opened for user root by (uid=0)
+May  2 10:17:01 iv-splv-link CRON[11805]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 10:17:01 iv-splv-link CRON[11805]: pam_unix(cron:session): session closed for user root
+May  2 10:39:01 iv-splv-link CRON[11897]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 10:39:01 iv-splv-link CRON[11897]: pam_unix(cron:session): session closed for user root
+May  2 11:09:01 iv-splv-link CRON[12033]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 11:09:01 iv-splv-link CRON[12033]: pam_unix(cron:session): session closed for user root
+May  2 11:17:01 iv-splv-link CRON[12091]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 11:17:01 iv-splv-link CRON[12091]: pam_unix(cron:session): session closed for user root
+May  2 11:39:01 iv-splv-link CRON[12178]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 11:39:01 iv-splv-link CRON[12178]: pam_unix(cron:session): session closed for user root
+May  2 12:09:01 iv-splv-link CRON[12292]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 12:09:01 iv-splv-link CRON[12292]: pam_unix(cron:session): session closed for user root
+May  2 12:17:01 iv-splv-link CRON[12399]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 12:17:01 iv-splv-link CRON[12399]: pam_unix(cron:session): session closed for user root
+May  2 12:39:01 iv-splv-link CRON[12519]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 12:39:01 iv-splv-link CRON[12519]: pam_unix(cron:session): session closed for user root
+May  2 13:09:01 iv-splv-link CRON[12587]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 13:09:01 iv-splv-link CRON[12587]: pam_unix(cron:session): session closed for user root
+May  2 13:17:01 iv-splv-link CRON[12674]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 13:17:01 iv-splv-link CRON[12674]: pam_unix(cron:session): session closed for user root
+May  2 13:21:31 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:21:31 iv-splv-link sudo:     root : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 13:21:31 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:22:15 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:22:23 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:22:23 iv-splv-link sudo:     root : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 13:22:23 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:22:30 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:29:16 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 13:29:16 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 13:29:16 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 13:29:50 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 13:29:50 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 13:29:50 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 13:31:52 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:31:52 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo /etc/sudoers
+May  2 13:31:52 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:31:52 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:32:00 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:32:00 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 13:32:00 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:32:49 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:36:44 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 13:36:44 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 13:36:44 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 13:36:59 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:36:59 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/bin/echo coucou
+May  2 13:36:59 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:36:59 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:36:59 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:36:59 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/bin/echo client1,92.103.197.250:53229,8087,8055,Tue May 2 13:26:39 2017
+May  2 13:36:59 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:36:59 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:36:59 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:36:59 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/bin/echo 10.8.0.6,client1,92.103.197.250:53229,Tue May 2 13:26:39 2017
+May  2 13:36:59 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:36:59 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:38:30 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 13:38:30 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 13:38:30 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 13:39:01 iv-splv-link CRON[13481]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 13:39:01 iv-splv-link CRON[13481]: pam_unix(cron:session): session closed for user root
+May  2 13:39:23 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 13:39:23 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 13:39:23 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 13:42:13 iv-splv-link su[13560]: Successful su for www-data by root
+May  2 13:42:13 iv-splv-link su[13560]: + /dev/pts/1 root:www-data
+May  2 13:42:13 iv-splv-link su[13560]: pam_unix(su:session): session opened for user www-data by root(uid=0)
+May  2 13:42:13 iv-splv-link nologin: Attempted login by root on /dev/pts/1
+May  2 13:42:13 iv-splv-link su[13560]: pam_unix(su:session): session closed for user www-data
+May  2 13:46:47 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:46:47 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo /etc/sudoers
+May  2 13:46:47 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:46:47 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:46:52 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:46:52 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 13:46:52 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:47:53 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:47:56 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:47:56 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 13:47:56 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:48:07 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:48:32 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 13:48:32 iv-splv-link sudo: www-data : TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 13:48:32 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 13:48:32 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:51:26 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 13:51:26 iv-splv-link sudo: www-data : TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 13:51:26 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 13:51:26 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:54:01 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 13:54:01 iv-splv-link sudo: www-data : TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 13:54:01 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 13:54:01 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:54:24 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:54:24 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo /etc/sudoers
+May  2 13:54:24 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:54:24 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:54:29 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 13:54:29 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 13:54:29 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 13:57:17 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 14:00:29 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:00:29 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:00:29 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:00:29 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:01:41 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:01:41 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:01:41 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:01:41 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:01:50 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 14:01:50 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 14:01:50 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 14:02:15 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 14:03:59 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 14:03:59 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 14:03:59 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 14:05:22 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 14:05:31 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:05:31 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:05:31 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:05:31 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:07:33 iv-splv-link su[13819]: Successful su for www-data by root
+May  2 14:07:33 iv-splv-link su[13819]: + /dev/pts/0 root:www-data
+May  2 14:07:33 iv-splv-link su[13819]: pam_unix(su:session): session opened for user www-data by root(uid=0)
+May  2 14:07:33 iv-splv-link nologin: Attempted login by root on /dev/pts/0
+May  2 14:07:33 iv-splv-link su[13819]: pam_unix(su:session): session closed for user www-data
+May  2 14:08:13 iv-splv-link su[13821]: Successful su for www-data by root
+May  2 14:08:13 iv-splv-link su[13821]: + /dev/pts/0 root:www-data
+May  2 14:08:13 iv-splv-link su[13821]: pam_unix(su:session): session opened for user www-data by root(uid=0)
+May  2 14:09:01 iv-splv-link CRON[13869]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 14:09:01 iv-splv-link CRON[13869]: pam_unix(cron:session): session closed for user root
+May  2 14:11:46 iv-splv-link su[13821]: pam_unix(su:session): session closed for user www-data
+May  2 14:12:28 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:12:28 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:12:28 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:12:28 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:13:40 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:13:40 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:13:40 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:13:40 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:14:18 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:14:18 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:14:18 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:14:18 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:14:39 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:14:39 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:14:39 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:14:39 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:14:56 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:14:56 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:14:56 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:14:56 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:15:28 iv-splv-link su[14022]: Successful su for www-data by root
+May  2 14:15:28 iv-splv-link su[14022]: + /dev/pts/0 root:www-data
+May  2 14:15:28 iv-splv-link su[14022]: pam_unix(su:session): session opened for user www-data by root(uid=0)
+May  2 14:17:01 iv-splv-link CRON[14075]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 14:17:01 iv-splv-link CRON[14075]: pam_unix(cron:session): session closed for user root
+May  2 14:17:22 iv-splv-link su[14022]: pam_unix(su:session): session closed for user www-data
+May  2 14:17:54 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:17:54 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:17:54 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:17:54 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:18:15 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:18:15 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:18:15 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:18:15 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:19:27 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:19:27 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:19:27 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:19:27 iv-splv-link sudo: www-data : command not allowed ; TTY=unknown ; PWD=/var/www/site ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:21:12 iv-splv-link su[14159]: Successful su for www-data by root
+May  2 14:21:12 iv-splv-link su[14159]: + /dev/pts/0 root:www-data
+May  2 14:21:12 iv-splv-link su[14159]: pam_unix(su:session): session opened for user www-data by root(uid=0)
+May  2 14:21:31 iv-splv-link sudo: www-data : unable to resolve host iv-splv-link
+May  2 14:21:51 iv-splv-link sudo: pam_unix(sudo:auth): authentication failure; logname=root uid=33 euid=0 tty=/dev/pts/0 ruser=www-data rhost=  user=www-data
+May  2 14:22:49 iv-splv-link sudo: pam_unix(sudo:auth): conversation failed
+May  2 14:22:49 iv-splv-link sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+May  2 14:22:49 iv-splv-link sudo: www-data : command not allowed ; TTY=pts/0 ; PWD=/var/www ; USER=root ; COMMAND=/var/scripts/script_supervision_v2.sh
+May  2 14:22:54 iv-splv-link su[14159]: pam_unix(su:session): session closed for user www-data
+May  2 14:39:01 iv-splv-link CRON[14242]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 14:39:01 iv-splv-link CRON[14242]: pam_unix(cron:session): session closed for user root
+May  2 15:09:01 iv-splv-link CRON[14456]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 15:09:01 iv-splv-link CRON[14456]: pam_unix(cron:session): session closed for user root
+May  2 15:17:01 iv-splv-link CRON[14501]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 15:17:01 iv-splv-link CRON[14501]: pam_unix(cron:session): session closed for user root
+May  2 15:24:52 iv-splv-link sudo:     root : unable to resolve host iv-splv-link
+May  2 15:24:52 iv-splv-link sudo:     root : TTY=pts/0 ; PWD=/var/scripts ; USER=root ; COMMAND=/usr/sbin/visudo -f /etc/sudoers
+May  2 15:24:52 iv-splv-link sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  2 15:25:40 iv-splv-link sudo: pam_unix(sudo:session): session closed for user root
+May  2 15:30:41 iv-splv-link su[14541]: Successful su for www-data by root
+May  2 15:30:41 iv-splv-link su[14541]: + /dev/pts/0 root:www-data
+May  2 15:30:41 iv-splv-link su[14541]: pam_unix(su:session): session opened for user www-data by root(uid=0)
+May  2 15:30:51 iv-splv-link su[14541]: pam_unix(su:session): session closed for user www-data
+May  2 15:39:01 iv-splv-link CRON[14559]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 15:39:01 iv-splv-link CRON[14559]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,27 @@
+2017-05-02 13:19:12 startup archives unpack
+2017-05-02 13:19:12 install sudo:i386 <aucune> 1.8.10p3-1+deb8u3
+2017-05-02 13:19:12 status half-installed sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:13 status triggers-pending man-db:i386 2.7.0.2-5
+2017-05-02 13:19:13 status triggers-pending systemd:i386 215-17+deb8u6
+2017-05-02 13:19:13 status unpacked sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:13 status unpacked sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:13 trigproc man-db:i386 2.7.0.2-5 <aucune>
+2017-05-02 13:19:13 status half-configured man-db:i386 2.7.0.2-5
+2017-05-02 13:19:13 status installed man-db:i386 2.7.0.2-5
+2017-05-02 13:19:13 trigproc systemd:i386 215-17+deb8u6 <aucune>
+2017-05-02 13:19:13 status half-configured systemd:i386 215-17+deb8u6
+2017-05-02 13:19:13 status installed systemd:i386 215-17+deb8u6
+2017-05-02 13:19:13 startup packages configure
+2017-05-02 13:19:13 configure sudo:i386 1.8.10p3-1+deb8u3 <aucune>
+2017-05-02 13:19:13 status unpacked sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:13 status triggers-pending systemd:i386 215-17+deb8u6
+2017-05-02 13:19:13 status unpacked sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:13 status unpacked sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:13 status unpacked sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:14 status unpacked sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:14 status half-configured sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:14 status installed sudo:i386 1.8.10p3-1+deb8u3
+2017-05-02 13:19:14 trigproc systemd:i386 215-17+deb8u6 <aucune>
+2017-05-02 13:19:14 status half-configured systemd:i386 215-17+deb8u6
+2017-05-02 13:19:14 status installed systemd:i386 215-17+deb8u6
+2017-05-02 13:19:14 startup packages configure

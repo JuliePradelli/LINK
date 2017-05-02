@@ -1,0 +1,11 @@
+
+Log started: 2017-05-02  13:19:12
+Sélection du paquet sudo précédemment désélectionné.
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 33563 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../sudo_1.8.10p3-1+deb8u3_i386.deb ...
+Dépaquetage de sudo (1.8.10p3-1+deb8u3) ...
+Traitement des actions différées (« triggers ») pour man-db (2.7.0.2-5) ...
+Traitement des actions différées (« triggers ») pour systemd (215-17+deb8u6) ...
+Paramétrage de sudo (1.8.10p3-1+deb8u3) ...
+Traitement des actions différées (« triggers ») pour systemd (215-17+deb8u6) ...
+Log ended: 2017-05-02  13:19:14

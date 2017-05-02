@@ -1,0 +1,5 @@
+
+Start-Date: 2017-05-02  13:19:12
+Commandline: apt-get install sudo
+Install: sudo:i386 (1.8.10p3-1+deb8u3)
+End-Date: 2017-05-02  13:19:14
