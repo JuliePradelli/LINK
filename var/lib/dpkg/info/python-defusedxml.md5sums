@@ -1,0 +1,17 @@
+3d6df4afe60b0d581f4bb0ef798d09fc  usr/lib/python2.7/dist-packages/defusedxml-0.4.1.egg-info
+f4c6d35f36ba84d6b0066ca84c10d8dd  usr/lib/python2.7/dist-packages/defusedxml/ElementTree.py
+f7fa97b4eb34fd0e115c871982835aec  usr/lib/python2.7/dist-packages/defusedxml/__init__.py
+bb364f511a30941a23b53b17eee016cb  usr/lib/python2.7/dist-packages/defusedxml/cElementTree.py
+a1a708d91f2d070308de351253655b57  usr/lib/python2.7/dist-packages/defusedxml/common.py
+6ab0dc23371ea5baea6ae313f31fd9ed  usr/lib/python2.7/dist-packages/defusedxml/expatbuilder.py
+a067ac8169f8699f56eeb6f686bc9d4b  usr/lib/python2.7/dist-packages/defusedxml/expatreader.py
+e389b083822ad445b540b92fc232c6c9  usr/lib/python2.7/dist-packages/defusedxml/lxml.py
+40cf75154f742869dd935f8c12ce06bd  usr/lib/python2.7/dist-packages/defusedxml/minidom.py
+82490ef84b552ef1731c24df1e917ab7  usr/lib/python2.7/dist-packages/defusedxml/pulldom.py
+54294d4a18c823cb2092275ad30fc9a8  usr/lib/python2.7/dist-packages/defusedxml/sax.py
+cff70a911655154859d9359c37bf172d  usr/lib/python2.7/dist-packages/defusedxml/xmlrpc.py
+26a905bb76179bb61c526608378e341d  usr/share/doc/python-defusedxml/README.html
+3688ae3ebee476b36ced2012b0b12676  usr/share/doc/python-defusedxml/README.txt.gz
+63354758cda643bb99278a17cee3f77a  usr/share/doc/python-defusedxml/changelog.Debian.gz
+ad9a49f6a161ddc79c161a3277da628b  usr/share/doc/python-defusedxml/changelog.gz
+6e932488735355169ce917277eff5712  usr/share/doc/python-defusedxml/copyright

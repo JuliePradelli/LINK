@@ -1,12 +1,22 @@
 <?php
+#function test() # ok
+#{
+#	$bdd = connexion_bdd("mydb");
+#	$reponse = $bdd->query('SELECT mail FROM user');
+#        while ($donnees = $reponse->fetch())
+#        {
+#		echo $donnees['mail'];
+#        }
+#        $reponse->closeCursor();	
+#}
 function existencecompte($mail, $mdp)
 {
-	$bdd = connexion_bdd("Khronos");
+	$bdd = connexion_bdd("link");
 	$sortie = false;
-	$reponse = $bdd->query('SELECT mail, pwd FROM User');
+	$reponse = $bdd->query('SELECT mail, mdp FROM users');
 	while ($donnees = $reponse->fetch())
 	{
-		if ($donnees['mail'] == $mail AND $donnees['pwd'] == $mdp)
+		if ($donnees['mail'] == $mail AND $donnees['mdp'] == $mdp)
 		{
 			$sortie = true;
 			break;
@@ -17,38 +27,26 @@ function existencecompte($mail, $mdp)
 }
 function connexion($mail)
 {
-	$bdd = connexion_bdd("Khronos");
-		$bdd->exec("UPDATE User SET etat = 'connecte' WHERE mail LIKE '".$mail."'");
+	$bdd = connexion_bdd("link");
+	$bdd->exec("UPDATE users SET etat=1 WHERE mail LIKE '".$mail."'");
 }
-function nouvelleinscription($pseudo, $mail, $mdp)
+function nouvelleinscription($mail, $mdp, $nom_projet, $admin)
 {
-	$bdd = connexion_bdd("Khronos");
-	$bdd->exec("INSERT INTO User(pseudo, mail, offre, pwd, etat, admin, cloud_active, inscription) VALUES('".$pseudo."','".$mail."', 0, '".$mdp."', 'deconnecte', 0, 0, 0)");
+	$bdd = connexion_bdd("link"); # faire un join quand ce sera fonctionnel
+	$bdd->exec("INSERT INTO projets(nom) VALUES('".$nom_projet."')");
+	$bdd->exec("INSERT INTO users(mail, mdp, etat, role, projet_idprojet) VALUES('".$mail."','".$mdp."', 0, 0, LAST_INSERT_ID())");
+
 }
 function verifadmin($mail)
 {
-	$bdd = connexion_bdd("Khronos");
-	$reponse = $bdd->query('SELECT admin FROM User WHERE mail LIKE "'.$mail.'"');
+	$bdd = connexion_bdd("link");
+	$reponse = $bdd->query('SELECT role FROM users WHERE mail LIKE "'.$mail.'"');
 	$donnees = $reponse->fetch();
 	$sortie = 0;
-	if ($donnees["admin"] == 1) 
+	if ($donnees["role"] == 1) 
 	{
 		$sortie = 1;
 	}
 	return $sortie;
-}
-function recuperationpseudo($mail)
-{
-        $bdd = connexion_bdd("Khronos");
-        $reponse = $bdd->query('SELECT pseudo FROM User WHERE mail LIKE "'.$mail.'"');
-        $donnees = $reponse->fetch();
-        return $donnees['pseudo'];
-}
-function verifoffre($mail)
-{
-        $bdd = connexion_bdd("Khronos");
-        $reponse = $bdd->query('SELECT offre FROM User WHERE mail LIKE "'.$mail.'"');
-        $donnees = $reponse->fetch();
-        return $donnees['offre'];
 }
 ?>

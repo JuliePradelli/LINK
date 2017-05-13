@@ -1,0 +1,8 @@
+b3f04454abb67be49ffdd712ba7284b5  usr/bin/netkit-ftp
+d6a3b75602401be6dd719ec2d2945841  usr/share/doc/ftp/BUGS
+42afe941d24591d8b4bece081a95978c  usr/share/doc/ftp/README.Debian
+74010941134faba407bb9d7c43099432  usr/share/doc/ftp/changelog.Debian.gz
+1aaeaafa756d032a2851ea9804160da7  usr/share/doc/ftp/changelog.gz
+e1cdcf49b008667a0f00a60b87518eb4  usr/share/doc/ftp/copyright
+ef7e8583f3a7f373741080fae45c7847  usr/share/man/man1/netkit-ftp.1.gz
+a4b17af10eace5cf3fc90abd8a59f523  usr/share/man/man5/netrc.5.gz

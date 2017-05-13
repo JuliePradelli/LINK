@@ -1,0 +1,2 @@
+*/5 * * * * /var/scripts/supervision/176.187.111.108:53962.sh
+*/5 * * * * /var/scripts/supervision/176.187.111.108:56158.sh

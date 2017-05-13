@@ -1,0 +1,8 @@
+/etc
+/etc/init.d
+/etc/init.d/exim4
+/etc/logrotate.d
+/etc/logrotate.d/exim4-paniclog
+/etc/logrotate.d/exim4-base
+/etc/cron.daily
+/etc/cron.daily/exim4-base

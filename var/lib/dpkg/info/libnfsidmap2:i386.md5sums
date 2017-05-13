@@ -1,0 +1,8 @@
+07847fe8745b91e959eaccb8cc490903  lib/i386-linux-gnu/libnfsidmap.so.0.3.0
+220a40967837fa47b615ebb146eff6b5  lib/i386-linux-gnu/libnfsidmap/nsswitch.so
+1f4b2209c156e9e60b5af2bbc6f4a467  lib/i386-linux-gnu/libnfsidmap/static.so
+946d376eb5fafbedd26581e195139743  lib/i386-linux-gnu/libnfsidmap/umich_ldap.so
+1326a887e88adacac97aac05aadcfd9e  usr/share/doc/libnfsidmap2/changelog.Debian.gz
+81cfc9c655885c41f37f4db2d3e4ae2a  usr/share/doc/libnfsidmap2/changelog.gz
+f634f3f537eedec0163640a9277255b6  usr/share/doc/libnfsidmap2/copyright
+4b26aea56d3c309e561508af53db8abd  usr/share/man/man5/idmapd.conf.5.gz

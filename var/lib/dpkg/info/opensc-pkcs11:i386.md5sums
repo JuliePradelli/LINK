@@ -1,0 +1,9 @@
+1f82832d66c8a7fc3d9ce7f449d26135  usr/lib/i386-linux-gnu/libopensc.so.3.0.0
+1601468a72d3dc4181143b9b72edf3d6  usr/lib/i386-linux-gnu/libsmm-local.so.3.0.0
+0d8af40d5307a032d91292e37fc5744b  usr/lib/i386-linux-gnu/onepin-opensc-pkcs11.so
+a9b96e3f085ef66f586f6548d3d397eb  usr/lib/i386-linux-gnu/opensc-pkcs11.so
+988e9919e7bde6dd8b24bbd9a5ca1d14  usr/lib/i386-linux-gnu/pkcs11-spy.so
+adcaf09befe9682e6f465e6eabbe83d3  usr/share/doc/opensc-pkcs11/NEWS.gz
+45f89b93dcbefbcf7f356dc229d40b93  usr/share/doc/opensc-pkcs11/README
+15183481060c61fa308aeba9d2c0f926  usr/share/doc/opensc-pkcs11/changelog.Debian.gz
+f01a15ecc3fe32f73ec171a670cecd87  usr/share/doc/opensc-pkcs11/copyright

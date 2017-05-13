@@ -1,0 +1,31 @@
+Package: libclamunrar
+Binary: libclamunrar7
+Version: 0.99-0+deb8u1
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Michael Tautschnig <mt@debian.org>, Stephen Gran <sgran@debian.org>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>
+Build-Depends: debhelper (>= 8), autotools-dev, zlib1g-dev, libbz2-dev, dh-autoreconf, automake, libssl-dev, pkg-config
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 8295c541bdd7314248c547df38fdfe13 2150 libclamunrar_0.99-0+deb8u1.dsc
+ 6b1a9739345aff4560b0e6d03d3411be 311248 libclamunrar_0.99.orig.tar.xz
+ 6645151be740f3a2674bde04d372d9b6 6116 libclamunrar_0.99-0+deb8u1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-clamav/libclamunrar.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-clamav/libclamunrar.git
+Checksums-Sha1:
+ 9aa2bc199c872a31eeb2695fb81d075e34ed91db 2150 libclamunrar_0.99-0+deb8u1.dsc
+ 3299e943affefb7a1aea0cada292f1c4ec039aed 311248 libclamunrar_0.99.orig.tar.xz
+ 30d482c640f5bc08f6814737e7aca3921f5db471 6116 libclamunrar_0.99-0+deb8u1.debian.tar.xz
+Checksums-Sha256:
+ 31da489fe083654cabbe705c9b7182028cf956c34d9111d16c7b2d6e40ec144b 2150 libclamunrar_0.99-0+deb8u1.dsc
+ 57db66f56d0b1fcc538b2de0b7de3ae77a014e77b7236d6aee80c9c4561b915f 311248 libclamunrar_0.99.orig.tar.xz
+ e73b04251791e2d18c36aaf61c2874adf707e474d5e4744a57edf0ce1a456d85 6116 libclamunrar_0.99-0+deb8u1.debian.tar.xz
+Homepage: http://www.clamav.net/
+Autobuild: yes
+Package-List: 
+ libclamunrar7 deb non-free/libs extra arch=any
+Directory: pool/non-free/libc/libclamunrar
+Priority: source
+Section: non-free/libs
+

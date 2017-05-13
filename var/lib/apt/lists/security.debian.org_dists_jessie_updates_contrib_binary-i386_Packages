@@ -1,0 +1,171 @@
+Package: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 56850
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Depends: adduser, python (<< 2.8), python (>= 2.7~), python2.7, python:any (>= 2.7.5-5~), libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libgcc1 (>= 1:4.1.1), libgsoap5, libpng12-0 (>= 1.2.13-4), libpython2.7 (>= 2.7), libsdl1.2debian (>= 1.2.11), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.9), libvncserver0 (>= 0.9.9), libvpx1 (>= 1.0.0), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxml2 (>= 2.7.4), libxmu6, libxt6, zlib1g (>= 1:1.1.4), virtualbox-dkms (>= 4.3.36-dfsg-1+deb8u1) | virtualbox-source (>= 4.3.36-dfsg-1+deb8u1) | virtualbox-modules
+Suggests: vde2, virtualbox-guest-additions-iso
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0
+Description: x86 virtualization solution - base binaries
+Homepage: http://www.virtualbox.org/
+Description-md5: 30f96d22c1a6ca04db16bdc1e79ad965
+Recommends: virtualbox-qt (= 4.3.36-dfsg-1+deb8u1), libgl1-mesa-glx | libgl1, libqt4-opengl (>= 4:4.5.3), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3)
+Section: contrib/misc
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox_4.3.36-dfsg-1+deb8u1_i386.deb
+Size: 13441260
+MD5sum: 0ebc65dbe2fa33bcdb49ef1ff8c3109a
+SHA1: 7eed02423bf7f4925d19789e3ac14dc7306d2f34
+SHA256: b3c604c0758d78c62a064580e9735f33e7affa9dfb2141beb09fab17aeed20fe
+
+Package: virtualbox-dbg
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 265257
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Depends: virtualbox (= 4.3.36-dfsg-1+deb8u1) | virtualbox-guest-utils (= 4.3.36-dfsg-1+deb8u1)
+Description: x86 virtualization solution - debugging symbols
+Homepage: http://www.virtualbox.org/
+Description-md5: b271b8956187eca407d52354cf368938
+Section: contrib/debug
+Priority: extra
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-dbg_4.3.36-dfsg-1+deb8u1_i386.deb
+Size: 54346820
+MD5sum: 9461944f1877a0162e675df3cd67f1e5
+SHA1: 8a89f35364a28ee0286de5b2c559377a9ac298da
+SHA256: 1b7a82b51a31f9abe08c00bd7a2f68f99f66054d1543df9ed02aaeb7eed0c1cc
+
+Package: virtualbox-dkms
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 4444
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: dkms (>= 2.1.0.0)
+Description: x86 virtualization solution - kernel module sources for dkms
+Homepage: http://www.virtualbox.org/
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Recommends: virtualbox (>= 4.3.36-dfsg-1+deb8u1)
+Section: contrib/kernel
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-dkms_4.3.36-dfsg-1+deb8u1_all.deb
+Size: 587118
+MD5sum: 3d5ca6274dca551a14f0049a806a2a6d
+SHA1: daca67d16db423da170a02547d64d294d8d1008d
+SHA256: b5c0136f969c29f996ac17f50a6aa6a23c614474c4b494aef0152cee93d47ed4
+
+Package: virtualbox-guest-dkms
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 3727
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Provides: virtualbox-guest-modules
+Depends: virtualbox-guest-utils (>= 4.3.36-dfsg-1+deb8u1), dkms (>= 2.1.0.0)
+Description: x86 virtualization solution - guest addition module source for dkms
+Homepage: http://www.virtualbox.org/
+Description-md5: e15ead9377a7f1e325ded819d3cfaf8b
+Section: contrib/kernel
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-guest-dkms_4.3.36-dfsg-1+deb8u1_all.deb
+Size: 498378
+MD5sum: d214611541d7c0bf5ff3448907cd1a03
+SHA1: 99100060bc1f7c2f8b279d0e5c3edcdf69814ca8
+SHA256: e736797ee3e9f7850dd0f63bbddd9157ef484f8f1457ebee7f3c12cb71ba4d1b
+
+Package: virtualbox-guest-source
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 671
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
+Description: x86 virtualization solution - guest addition module source
+Homepage: http://www.virtualbox.org/
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+Section: contrib/kernel
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-guest-source_4.3.36-dfsg-1+deb8u1_all.deb
+Size: 598754
+MD5sum: dbb26d68d2f56acb1dc50030bb1f8267
+SHA1: 934c05212bfca3189832ba6fcb5aa3f9c360586b
+SHA256: 50dc1165241369677b92995f0bf5742e77ffbc07caa6daafe0c008c995ba8911
+
+Package: virtualbox-guest-utils
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 1754
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Depends: adduser, pciutils, libc6 (>= 2.15), libpam0g (>= 0.99.7.1)
+Description: x86 virtualization solution - non-X11 guest utilities
+Homepage: http://www.virtualbox.org/
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Recommends: virtualbox-guest-dkms (= 4.3.36-dfsg-1+deb8u1) | virtualbox-guest-source (= 4.3.36-dfsg-1+deb8u1) | virtualbox-guest-modules, virtualbox-guest-x11 (= 4.3.36-dfsg-1+deb8u1)
+Section: contrib/misc
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-guest-utils_4.3.36-dfsg-1+deb8u1_i386.deb
+Size: 396244
+MD5sum: bc1668b393b0be1472cb8a0341cd820c
+SHA1: 49eb0d0d852b86b414ba27e2f018c9dc3c7120e6
+SHA256: b6b77beceb539550f7904b7aa8c9349bcaa76e61f6a1ca5e19218a804361dabf
+
+Package: virtualbox-guest-x11
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 5567
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Provides: xorg-driver-video
+Depends: libnotify-bin, virtualbox-guest-utils (= 4.3.36-dfsg-1+deb8u1), libc6 (>= 2.7), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxmu6, libxt6, xorg-video-abi-18, xserver-xorg-core (>= 2:1.15.99.903)
+Description: x86 virtualization solution - X11 guest utilities
+Homepage: http://www.virtualbox.org/
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Section: contrib/x11
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-guest-x11_4.3.36-dfsg-1+deb8u1_i386.deb
+Size: 968766
+MD5sum: c7267b9964f7f3157181f747db36ef9f
+SHA1: c9f1d60deed22067a609b5f4ab4e6b31e23cf00f
+SHA256: 0ef0da80f1a2713cad81e579867d12fe9aebee03d1eeb4b4a8411f8f7699af59
+
+Package: virtualbox-qt
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 21946
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Replaces: virtualbox (<< 4.1.6-dfsg-2~)
+Depends: virtualbox (= 4.3.36-dfsg-1+deb8u1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libqt4-network (>= 4:4.5.3), libqt4-opengl (>= 4:4.7.2), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.6), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxinerama1
+Breaks: virtualbox (<< 4.1.6-dfsg-2~)
+Description: x86 virtualization solution - Qt based user interface
+Homepage: http://www.virtualbox.org/
+Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
+Section: contrib/misc
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-qt_4.3.36-dfsg-1+deb8u1_i386.deb
+Size: 4789632
+MD5sum: a42668efc062697f66d3d7c2af8b5c2c
+SHA1: e7a795f1a16882e6789da323ac6150c55a2fb21a
+SHA256: c55676873b81acb93f91d6cada95a7dc1096f7761ef1e8137a432ac43240323c
+
+Package: virtualbox-source
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 762
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
+Description: x86 virtualization solution - kernel module source
+Homepage: http://www.virtualbox.org/
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Recommends: virtualbox (>= 4.3.36-dfsg-1+deb8u1)
+Section: contrib/kernel
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-source_4.3.36-dfsg-1+deb8u1_all.deb
+Size: 691904
+MD5sum: ef9e0eb12796aa263a6792162bf37a37
+SHA1: 2eaff579a895c497c8e3345f84be012f9aaf6929
+SHA256: eca236a7a5815d4d19813f583e6e2ecc6f5634acebaef60fa01020176e9c7eaf
+

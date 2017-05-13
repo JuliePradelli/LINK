@@ -1,0 +1,5 @@
+libopensc 3 opensc-pkcs11
+libsmm-local 3 opensc-pkcs11
+onepin-opensc pkcs11 opensc-pkcs11
+opensc pkcs11 opensc-pkcs11
+pkcs11 spy opensc-pkcs11

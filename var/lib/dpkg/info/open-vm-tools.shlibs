@@ -1,0 +1,3 @@
+libvmtools 0 open-vm-tools
+libhgfs 0 open-vm-tools
+libguestlib 0 open-vm-tools

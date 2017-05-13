@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgc1c2
+/usr/share/doc/libgc1c2/README.environment.gz
+/usr/share/doc/libgc1c2/changelog.Debian.gz
+/usr/share/doc/libgc1c2/changelog.gz
+/usr/share/doc/libgc1c2/copyright
+/usr/lib
+/usr/lib/i386-linux-gnu
+/usr/lib/i386-linux-gnu/libgc.so.1.0.3
+/usr/lib/i386-linux-gnu/libgccpp.so.1.0.3
+/usr/lib/i386-linux-gnu/libgccpp.so.1
+/usr/lib/i386-linux-gnu/libgc.so.1

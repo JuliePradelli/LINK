@@ -1,0 +1,7 @@
+49a6b21a3713b1e5f8b2e5632f1da211  usr/share/doc/libio-socket-ip-perl/changelog.Debian.gz
+b2ba4d528ef7ad7a4f761d95b0c32b7f  usr/share/doc/libio-socket-ip-perl/changelog.gz
+b775e360880fa99bc2b7be6d79960c32  usr/share/doc/libio-socket-ip-perl/copyright
+92c394a881c45dcefe54d2c22c539cf0  usr/share/doc/libio-socket-ip-perl/examples/connect.pl
+e98f08e7bb327ec3f5d7953f41c8f30b  usr/share/doc/libio-socket-ip-perl/examples/nonblocking_libasyncns.pl
+3c17058112cada634af603e690fb9f63  usr/share/man/man3/IO::Socket::IP.3pm.gz
+6f54aa20230676e4738c79624a3584c3  usr/share/perl5/IO/Socket/IP.pm

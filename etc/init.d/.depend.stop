@@ -1,0 +1,13 @@
+TARGETS = php5-fpm open-vm-tools openvpn nginx atd exim4 postfix urandom mysql sendsigs rsyslog umountnfs.sh rpcbind nfs-common hwclock.sh networking umountfs umountroot halt reboot
+mysql: exim4 postfix
+sendsigs: openvpn exim4 php5-fpm mysql open-vm-tools nginx postfix atd
+rsyslog: openvpn exim4 mysql sendsigs nginx postfix atd
+umountnfs.sh: openvpn exim4 php5-fpm mysql open-vm-tools rsyslog sendsigs nginx postfix atd
+rpcbind: umountnfs.sh
+nfs-common: umountnfs.sh
+hwclock.sh: mysql nfs-common rsyslog atd
+networking: rpcbind openvpn exim4 php5-fpm umountnfs.sh mysql nginx postfix
+umountfs: hwclock.sh networking urandom rpcbind openvpn exim4 php5-fpm umountnfs.sh mysql open-vm-tools nginx postfix atd
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

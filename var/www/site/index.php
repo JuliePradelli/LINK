@@ -8,7 +8,7 @@ function connexion_bdd($mabdd)
 {
 	try
 	{
-	   $bdd = new PDO('mysql:host=localhost;dbname=mydb;charset=utf8', 'root', '');
+	   $bdd = new PDO('mysql:host=localhost;dbname=link;charset=utf8', 'root', 'K8moA');
 	}
 	catch (Exception $e)
 	{
@@ -45,8 +45,14 @@ if($_SERVER['QUERY_STRING'] != "")
 		case 'user_tutoriel':
 			include_once("controleur/user_tutoriel.php");
 			break;
-		case 'admin_tableau_de_bord':
-			include_once("controleur/admin_tableau_de_bord.php");
+		case 'admin_tdb':
+			include_once("controleur/admin_tdb.php");
+			break;
+		case 'admin_utilisateurs':
+			include_once("controleur/admin_utilisateurs.php");
+			break;
+		case 'admin_projets':
+			include_once("controleur/admin_projets.php");
 			break;
 		case 'test':
 			include_once("controleur/test.php");
@@ -55,6 +61,6 @@ if($_SERVER['QUERY_STRING'] != "")
 }
 else
 {
-	include_once("vue/page_principale/index.html");
+	include_once("vue/page_principale/index.php");
 }
 ?>
