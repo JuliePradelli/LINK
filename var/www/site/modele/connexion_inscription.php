@@ -1,14 +1,4 @@
 <?php
-#function test() # ok
-#{
-#	$bdd = connexion_bdd("mydb");
-#	$reponse = $bdd->query('SELECT mail FROM user');
-#        while ($donnees = $reponse->fetch())
-#        {
-#		echo $donnees['mail'];
-#        }
-#        $reponse->closeCursor();	
-#}
 function existencecompte($mail, $mdp)
 {
 	$bdd = connexion_bdd("link");
@@ -44,6 +34,18 @@ function verifadmin($mail)
 	$donnees = $reponse->fetch();
 	$sortie = 0;
 	if ($donnees["role"] == 1) 
+	{
+		$sortie = 1;
+	}
+	return $sortie;
+}
+function verifvalidation($mail)
+{
+	$bdd = connexion_bdd("link");
+	$reponse = $bdd->query('SELECT validation FROM users WHERE mail LIKE "'.$mail.'"');
+	$donnees = $reponse->fetch();
+	$sortie = 0;
+	if ($donnees["validation"] == 1) 
 	{
 		$sortie = 1;
 	}

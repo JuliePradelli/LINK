@@ -58,3 +58,5 @@ postdrop:x:116:
 mysql:x:117:
 link:x:1002:
 insafe:x:1003:
+julie:x:1004:
+jc:x:1005:

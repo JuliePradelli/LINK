@@ -18,7 +18,7 @@ Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 
 # User privilege specification
 root	ALL=(ALL:ALL) ALL
-www-data	ALL=NOPASSWD: /bin/echo,/usr/bin/cut
+www-data	ALL= NOPASSWD: /bin/echo, /usr/bin/cut, /bin/cat, /bin/grep, /usr/bin/awk, /usr/bin/print, /usr/bin/mutt, /var/scripts/script_user.sh, /bin/chown, /bin/chmod, /bin/mkdir, /usr/sbin/useradd, /usr/bin/openssl
 
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) ALL

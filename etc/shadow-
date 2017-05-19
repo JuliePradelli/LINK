@@ -29,3 +29,5 @@ openvpn:!:17280:0:99999:7:::
 postfix:*:17282:0:99999:7:::
 mysql:!:17284:0:99999:7:::
 link:$1$0q5gX2zt$Sd..ngDeNs09qUnguUU6K0:17290:0:99999:7:::
+insafe:$1$sA33A2IX$O4w6CzpfWvAYZFVkAh/rg1:17296:0:99999:7:::
+julie:$1$/d5mVk2X$wXTC.YA3eZxK1bEdhWiS80:17305:0:99999:7:::

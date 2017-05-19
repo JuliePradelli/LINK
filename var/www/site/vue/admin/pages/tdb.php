@@ -58,7 +58,7 @@
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i>Déconnexion</a>
+                        <li><a href="index.php?page=deconnexion"><i class="fa fa-sign-out fa-fw"></i>Déconnexion</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -80,7 +80,7 @@
                             <a href="index.php?page=admin_projets"><i class="fa fa-table fa-fw"></i> Projets</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-edit fa-fw"></i> Deconnexion</a>
+                            <a href="index.php?page=deconnexion"><i class="fa fa-edit fa-fw"></i> Deconnexion</a>
                         </li>
                     </ul>
                 </div>
