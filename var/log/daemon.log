@@ -1,555 +1,361 @@
-May 14 14:29:24 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
-May 14 14:29:24 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
-May 15 14:29:29 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
-May 15 14:29:29 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
-May 15 15:30:27 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 TLS: Initial packet from [AF_INET]92.103.197.250:62761, sid=bb955aa7 25a44f68
-May 15 15:30:30 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 15 15:30:30 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 15 15:30:30 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 15 15:30:30 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 15 15:30:30 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 15 15:30:30 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 15 15:30:30 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 15 15:30:30 iv-splv-link ovpn-server[516]: 92.103.197.250:62761 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:62761
-May 15 15:30:30 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62761 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 15 15:30:30 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62761 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:62761
-May 15 15:30:30 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62761 MULTI: primary virtual IP for client1/92.103.197.250:62761: 10.8.0.6
-May 15 15:30:32 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62761 PUSH: Received control message: 'PUSH_REQUEST'
-May 15 15:30:32 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62761 send_push_reply(): safe_cap=940
-May 15 15:30:32 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62761 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 15 15:41:33 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62761 [client1] Inactivity timeout (--ping-restart), restarting
-May 15 15:41:33 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62761 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 TLS: Initial packet from [AF_INET]176.187.111.108:50564, sid=4c3c1a0f f6bd667b
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 15 18:16:47 iv-splv-link ovpn-server[516]: 176.187.111.108:50564 [client1] Peer Connection Initiated with [AF_INET]176.187.111.108:50564
-May 15 18:16:47 iv-splv-link ovpn-server[516]: client1/176.187.111.108:50564 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 15 18:16:47 iv-splv-link ovpn-server[516]: client1/176.187.111.108:50564 MULTI: Learn: 10.8.0.6 -> client1/176.187.111.108:50564
-May 15 18:16:47 iv-splv-link ovpn-server[516]: client1/176.187.111.108:50564 MULTI: primary virtual IP for client1/176.187.111.108:50564: 10.8.0.6
-May 15 18:16:49 iv-splv-link ovpn-server[516]: client1/176.187.111.108:50564 PUSH: Received control message: 'PUSH_REQUEST'
-May 15 18:16:49 iv-splv-link ovpn-server[516]: client1/176.187.111.108:50564 send_push_reply(): safe_cap=940
-May 15 18:16:49 iv-splv-link ovpn-server[516]: client1/176.187.111.108:50564 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 15 18:23:13 iv-splv-link ovpn-server[516]: client1/176.187.111.108:50564 [client1] Inactivity timeout (--ping-restart), restarting
-May 15 18:23:13 iv-splv-link ovpn-server[516]: client1/176.187.111.108:50564 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 TLS: Initial packet from [AF_INET]176.187.111.108:53907, sid=5ba58b78 708fed7b
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 15 18:35:03 iv-splv-link ovpn-server[516]: 176.187.111.108:53907 [client1] Peer Connection Initiated with [AF_INET]176.187.111.108:53907
-May 15 18:35:03 iv-splv-link ovpn-server[516]: client1/176.187.111.108:53907 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 15 18:35:03 iv-splv-link ovpn-server[516]: client1/176.187.111.108:53907 MULTI: Learn: 10.8.0.6 -> client1/176.187.111.108:53907
-May 15 18:35:03 iv-splv-link ovpn-server[516]: client1/176.187.111.108:53907 MULTI: primary virtual IP for client1/176.187.111.108:53907: 10.8.0.6
-May 15 18:35:06 iv-splv-link ovpn-server[516]: client1/176.187.111.108:53907 PUSH: Received control message: 'PUSH_REQUEST'
-May 15 18:35:06 iv-splv-link ovpn-server[516]: client1/176.187.111.108:53907 send_push_reply(): safe_cap=940
-May 15 18:35:06 iv-splv-link ovpn-server[516]: client1/176.187.111.108:53907 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 15 19:06:04 iv-splv-link ovpn-server[516]: client1/176.187.111.108:53907 [client1] Inactivity timeout (--ping-restart), restarting
-May 15 19:06:04 iv-splv-link ovpn-server[516]: client1/176.187.111.108:53907 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 TLS: Initial packet from [AF_INET]176.187.111.108:61468, sid=4bf69ce0 d2dcc69a
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 15 19:24:04 iv-splv-link ovpn-server[516]: 176.187.111.108:61468 [client1] Peer Connection Initiated with [AF_INET]176.187.111.108:61468
-May 15 19:24:04 iv-splv-link ovpn-server[516]: client1/176.187.111.108:61468 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 15 19:24:04 iv-splv-link ovpn-server[516]: client1/176.187.111.108:61468 MULTI: Learn: 10.8.0.6 -> client1/176.187.111.108:61468
-May 15 19:24:04 iv-splv-link ovpn-server[516]: client1/176.187.111.108:61468 MULTI: primary virtual IP for client1/176.187.111.108:61468: 10.8.0.6
-May 15 19:24:06 iv-splv-link ovpn-server[516]: client1/176.187.111.108:61468 PUSH: Received control message: 'PUSH_REQUEST'
-May 15 19:24:06 iv-splv-link ovpn-server[516]: client1/176.187.111.108:61468 send_push_reply(): safe_cap=940
-May 15 19:24:06 iv-splv-link ovpn-server[516]: client1/176.187.111.108:61468 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 15 19:28:09 iv-splv-link ovpn-server[516]: client1/176.187.111.108:61468 [client1] Inactivity timeout (--ping-restart), restarting
-May 15 19:28:09 iv-splv-link ovpn-server[516]: client1/176.187.111.108:61468 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 TLS: Initial packet from [AF_INET]92.103.197.250:56221, sid=49bb68a5 333ac77b
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 16 08:51:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56221 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:56221
-May 16 08:51:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 16 08:51:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:56221
-May 16 08:51:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 MULTI: primary virtual IP for client1/92.103.197.250:56221: 10.8.0.6
-May 16 08:51:13 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 PUSH: Received control message: 'PUSH_REQUEST'
-May 16 08:51:13 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 send_push_reply(): safe_cap=940
-May 16 08:51:13 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 16 09:23:14 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 TLS: Initial packet from [AF_INET]92.103.197.250:63688, sid=0d240c0a 19009a21
-May 16 09:23:14 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 09:23:14 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 09:23:15 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 09:23:15 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 09:23:15 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 09:23:15 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 09:23:15 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 16 09:23:15 iv-splv-link ovpn-server[516]: 92.103.197.250:63688 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:63688
-May 16 09:23:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
-May 16 09:23:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 MULTI: Learn: 10.8.0.10 -> client1/92.103.197.250:63688
-May 16 09:23:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 MULTI: primary virtual IP for client1/92.103.197.250:63688: 10.8.0.10
-May 16 09:23:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 PUSH: Received control message: 'PUSH_REQUEST'
-May 16 09:23:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 send_push_reply(): safe_cap=940
-May 16 09:23:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
-May 16 09:51:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 TLS: soft reset sec=0 bytes=2491538/0 pkts=4179/0
-May 16 09:51:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 09:51:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 09:51:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 09:51:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 09:51:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 09:51:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 09:51:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 16 10:23:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 TLS: soft reset sec=0 bytes=4211731/0 pkts=6464/0
-May 16 10:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 10:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 10:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 10:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 10:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 10:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 10:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 16 10:28:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 [client1] Inactivity timeout (--ping-restart), restarting
-May 16 10:28:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56221 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 TLS: Initial packet from [AF_INET]92.103.197.250:49440, sid=ec602f97 6517d39d
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 16 11:04:00 iv-splv-link ovpn-server[516]: 92.103.197.250:49440 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:49440
-May 16 11:04:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:49440 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 16 11:04:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:49440 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:49440
-May 16 11:04:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:49440 MULTI: primary virtual IP for client1/92.103.197.250:49440: 10.8.0.6
-May 16 11:04:02 iv-splv-link ovpn-server[516]: client1/92.103.197.250:49440 PUSH: Received control message: 'PUSH_REQUEST'
-May 16 11:04:02 iv-splv-link ovpn-server[516]: client1/92.103.197.250:49440 send_push_reply(): safe_cap=940
-May 16 11:04:02 iv-splv-link ovpn-server[516]: client1/92.103.197.250:49440 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 16 11:08:43 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 TLS: Initial packet from [AF_INET]92.103.197.250:62372, sid=c0517eb7 cc26a1ca
-May 16 11:08:53 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 11:08:53 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 11:08:54 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 11:08:54 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 11:08:54 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 11:08:54 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 11:08:54 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 16 11:08:54 iv-splv-link ovpn-server[516]: 92.103.197.250:62372 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:62372
-May 16 11:08:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62372 MULTI_sva: pool returned IPv4=10.8.0.14, IPv6=(Not enabled)
-May 16 11:08:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62372 MULTI: Learn: 10.8.0.14 -> client1/92.103.197.250:62372
-May 16 11:08:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62372 MULTI: primary virtual IP for client1/92.103.197.250:62372: 10.8.0.14
-May 16 11:08:56 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62372 PUSH: Received control message: 'PUSH_REQUEST'
-May 16 11:08:56 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62372 send_push_reply(): safe_cap=940
-May 16 11:08:56 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62372 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.14 10.8.0.13' (status=1)
-May 16 11:11:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:49440 [client1] Inactivity timeout (--ping-restart), restarting
-May 16 11:11:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:49440 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 16 11:15:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62372 [client1] Inactivity timeout (--ping-restart), restarting
-May 16 11:15:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:62372 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 16 11:23:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 TLS: tls_process: killed expiring key
-May 16 11:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 TLS: soft reset sec=0 bytes=189813/0 pkts=1203/0
-May 16 11:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 11:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 11:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 11:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 11:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 11:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 11:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 16 12:23:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 TLS: tls_process: killed expiring key
-May 16 12:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 12:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 16 12:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 12:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 12:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 16 12:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 16 12:23:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 16 12:32:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 [client1] Inactivity timeout (--ping-restart), restarting
-May 16 12:32:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63688 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 16 14:13:05 iv-splv-link dhclient: DHCPREQUEST on eth0 to 10.10.10.161 port 67
-May 16 14:13:05 iv-splv-link dhclient: DHCPACK from 10.10.10.161
-May 16 14:13:05 iv-splv-link dhclient: bound to 10.10.10.156 -- renewal in 344296 seconds.
-May 16 14:29:38 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
-May 16 14:29:38 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
-May 17 09:32:42 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 TLS: Initial packet from [AF_INET]92.103.197.250:58404, sid=5aaf8a20 7f215c52
-May 17 09:32:43 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 09:32:43 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 09:32:43 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 09:32:43 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 09:32:43 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 09:32:43 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 09:32:43 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 17 09:32:43 iv-splv-link ovpn-server[516]: 92.103.197.250:58404 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:58404
-May 17 09:32:43 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 17 09:32:43 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:58404
-May 17 09:32:43 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 MULTI: primary virtual IP for client1/92.103.197.250:58404: 10.8.0.6
-May 17 09:32:44 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 PUSH: Received control message: 'PUSH_REQUEST'
-May 17 09:32:44 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 send_push_reply(): safe_cap=940
-May 17 09:32:44 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 17 10:32:43 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 TLS: soft reset sec=0 bytes=666347/0 pkts=2474/0
-May 17 10:32:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 10:32:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 10:32:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 10:32:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 10:32:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 10:32:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 10:32:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 17 10:34:28 iv-splv-link systemd[1]: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 3958 (find)
-May 17 10:34:28 iv-splv-link systemd[1]: Mounting Arbitrary Executable File Formats File System...
-May 17 10:34:28 iv-splv-link systemd[1]: Mounted Arbitrary Executable File Formats File System.
-May 17 11:32:43 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 TLS: tls_process: killed expiring key
-May 17 11:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 TLS: soft reset sec=-1 bytes=3204348/0 pkts=5260/0
-May 17 11:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 11:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 11:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 11:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 11:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 11:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 11:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 17 12:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 TLS: soft reset sec=0 bytes=174028/0 pkts=1076/0
-May 17 12:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 12:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 12:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 12:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 12:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 12:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 12:32:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 17 12:41:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 [client1] Inactivity timeout (--ping-restart), restarting
-May 17 12:41:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:58404 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 17 13:01:21 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 TLS: Initial packet from [AF_INET]92.103.197.250:64555, sid=c098eebd 45deaa19
-May 17 13:01:23 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 13:01:23 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 13:01:23 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 13:01:23 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 13:01:23 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 13:01:23 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 13:01:23 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 17 13:01:23 iv-splv-link ovpn-server[516]: 92.103.197.250:64555 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:64555
-May 17 13:01:23 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64555 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 17 13:01:23 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64555 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:64555
-May 17 13:01:23 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64555 MULTI: primary virtual IP for client1/92.103.197.250:64555: 10.8.0.6
-May 17 13:01:24 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64555 PUSH: Received control message: 'PUSH_REQUEST'
-May 17 13:01:24 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64555 send_push_reply(): safe_cap=940
-May 17 13:01:24 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64555 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 17 13:18:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64555 [client1] Inactivity timeout (--ping-restart), restarting
-May 17 13:18:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64555 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 17 14:19:54 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 TLS: Initial packet from [AF_INET]92.103.197.250:51814, sid=ddc3ac9e 25d05c36
-May 17 14:19:55 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 14:19:55 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 14:19:55 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 14:19:55 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 14:19:55 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 14:19:55 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 14:19:55 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 17 14:19:55 iv-splv-link ovpn-server[516]: 92.103.197.250:51814 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:51814
-May 17 14:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 17 14:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:51814
-May 17 14:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 MULTI: primary virtual IP for client1/92.103.197.250:51814: 10.8.0.6
-May 17 14:19:56 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 PUSH: Received control message: 'PUSH_REQUEST'
-May 17 14:19:56 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 send_push_reply(): safe_cap=940
-May 17 14:19:56 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 17 14:29:44 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
-May 17 14:29:44 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
-May 17 15:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 15:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 15:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 15:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 15:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 15:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 15:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 17 16:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 TLS: soft reset sec=0 bytes=91789/0 pkts=975/0
-May 17 16:20:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 16:20:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 17 16:20:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 16:20:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 16:20:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 17 16:20:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 17 16:20:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 17 17:01:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 [client1] Inactivity timeout (--ping-restart), restarting
-May 17 17:01:00 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51814 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 TLS: Initial packet from [AF_INET]92.103.197.250:51187, sid=07f26c12 2d26370c
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 11:55:02 iv-splv-link ovpn-server[516]: 92.103.197.250:51187 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:51187
-May 18 11:55:02 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51187 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 18 11:55:02 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51187 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:51187
-May 18 11:55:02 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51187 MULTI: primary virtual IP for client1/92.103.197.250:51187: 10.8.0.6
-May 18 11:55:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51187 PUSH: Received control message: 'PUSH_REQUEST'
-May 18 11:55:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51187 send_push_reply(): safe_cap=940
-May 18 11:55:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51187 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 18 12:07:28 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51187 [client1] Inactivity timeout (--ping-restart), restarting
-May 18 12:07:28 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51187 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 18 12:11:59 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 TLS: Initial packet from [AF_INET]93.7.224.247:64941, sid=a3b30a87 980be623
-May 18 12:12:00 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 12:12:00 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 12:12:00 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 12:12:00 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 12:12:00 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 12:12:00 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 12:12:00 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 12:12:00 iv-splv-link ovpn-server[516]: 93.7.224.247:64941 [client1] Peer Connection Initiated with [AF_INET]93.7.224.247:64941
-May 18 12:12:00 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 18 12:12:00 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 MULTI: Learn: 10.8.0.6 -> client1/93.7.224.247:64941
-May 18 12:12:00 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 MULTI: primary virtual IP for client1/93.7.224.247:64941: 10.8.0.6
-May 18 12:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 PUSH: Received control message: 'PUSH_REQUEST'
-May 18 12:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 send_push_reply(): safe_cap=940
-May 18 12:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 18 13:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 TLS: soft reset sec=-1 bytes=199280/0 pkts=1461/0
-May 18 13:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 13:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 13:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 13:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 13:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 13:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 13:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 TLS: Initial packet from [AF_INET]176.187.111.108:49921, sid=45add1bb 54e7b611
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 13:38:10 iv-splv-link ovpn-server[516]: 176.187.111.108:49921 [client1] Peer Connection Initiated with [AF_INET]176.187.111.108:49921
-May 18 13:38:10 iv-splv-link ovpn-server[516]: client1/176.187.111.108:49921 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
-May 18 13:38:10 iv-splv-link ovpn-server[516]: client1/176.187.111.108:49921 MULTI: Learn: 10.8.0.10 -> client1/176.187.111.108:49921
-May 18 13:38:10 iv-splv-link ovpn-server[516]: client1/176.187.111.108:49921 MULTI: primary virtual IP for client1/176.187.111.108:49921: 10.8.0.10
-May 18 13:38:13 iv-splv-link ovpn-server[516]: client1/176.187.111.108:49921 PUSH: Received control message: 'PUSH_REQUEST'
-May 18 13:38:13 iv-splv-link ovpn-server[516]: client1/176.187.111.108:49921 send_push_reply(): safe_cap=940
-May 18 13:38:13 iv-splv-link ovpn-server[516]: client1/176.187.111.108:49921 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 TLS: Initial packet from [AF_INET]176.187.111.108:58375, sid=c1d5e1e3 7f19c822
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 14:05:38 iv-splv-link ovpn-server[516]: 176.187.111.108:58375 [client1] Peer Connection Initiated with [AF_INET]176.187.111.108:58375
-May 18 14:05:38 iv-splv-link ovpn-server[516]: client1/176.187.111.108:58375 MULTI_sva: pool returned IPv4=10.8.0.14, IPv6=(Not enabled)
-May 18 14:05:38 iv-splv-link ovpn-server[516]: client1/176.187.111.108:58375 MULTI: Learn: 10.8.0.14 -> client1/176.187.111.108:58375
-May 18 14:05:38 iv-splv-link ovpn-server[516]: client1/176.187.111.108:58375 MULTI: primary virtual IP for client1/176.187.111.108:58375: 10.8.0.14
-May 18 14:05:40 iv-splv-link ovpn-server[516]: client1/176.187.111.108:58375 PUSH: Received control message: 'PUSH_REQUEST'
-May 18 14:05:40 iv-splv-link ovpn-server[516]: client1/176.187.111.108:58375 send_push_reply(): safe_cap=940
-May 18 14:05:40 iv-splv-link ovpn-server[516]: client1/176.187.111.108:58375 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.14 10.8.0.13' (status=1)
-May 18 14:09:24 iv-splv-link ovpn-server[516]: client1/176.187.111.108:49921 [client1] Inactivity timeout (--ping-restart), restarting
-May 18 14:09:24 iv-splv-link ovpn-server[516]: client1/176.187.111.108:49921 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 18 14:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 TLS: soft reset sec=0 bytes=96419/0 pkts=993/0
-May 18 14:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 14:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 14:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 14:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 14:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 14:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 14:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 14:25:53 iv-splv-link ovpn-server[516]: client1/176.187.111.108:58375 [client1] Inactivity timeout (--ping-restart), restarting
-May 18 14:25:53 iv-splv-link ovpn-server[516]: client1/176.187.111.108:58375 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 18 14:29:45 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
-May 18 14:29:45 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
-May 18 15:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 TLS: soft reset sec=0 bytes=97467/0 pkts=997/0
-May 18 15:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 15:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 15:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 15:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 15:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 15:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 15:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 16:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 TLS: soft reset sec=0 bytes=88350/0 pkts=914/0
-May 18 16:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 16:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 16:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 16:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 16:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 16:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 16:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 17:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 TLS: soft reset sec=0 bytes=83267/0 pkts=865/0
-May 18 17:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 17:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 17:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 17:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 17:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 17:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 17:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 18:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 18:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 18:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 18:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 18:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 18:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 18:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 18:36:24 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 TLS: Initial packet from [AF_INET]176.187.111.108:54940, sid=35ff949b db6a8c42
-May 18 18:36:30 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 18:36:30 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 18:36:30 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 18:36:30 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 18:36:30 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 18:36:30 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 18:36:30 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 18:36:30 iv-splv-link ovpn-server[516]: 176.187.111.108:54940 [client1] Peer Connection Initiated with [AF_INET]176.187.111.108:54940
-May 18 18:36:30 iv-splv-link ovpn-server[516]: client1/176.187.111.108:54940 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
-May 18 18:36:30 iv-splv-link ovpn-server[516]: client1/176.187.111.108:54940 MULTI: Learn: 10.8.0.10 -> client1/176.187.111.108:54940
-May 18 18:36:30 iv-splv-link ovpn-server[516]: client1/176.187.111.108:54940 MULTI: primary virtual IP for client1/176.187.111.108:54940: 10.8.0.10
-May 18 18:36:32 iv-splv-link ovpn-server[516]: client1/176.187.111.108:54940 PUSH: Received control message: 'PUSH_REQUEST'
-May 18 18:36:32 iv-splv-link ovpn-server[516]: client1/176.187.111.108:54940 send_push_reply(): safe_cap=940
-May 18 18:36:32 iv-splv-link ovpn-server[516]: client1/176.187.111.108:54940 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
-May 18 18:42:03 iv-splv-link ovpn-server[516]: client1/176.187.111.108:54940 [client1] Inactivity timeout (--ping-restart), restarting
-May 18 18:42:03 iv-splv-link ovpn-server[516]: client1/176.187.111.108:54940 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 TLS: Initial packet from [AF_INET]176.187.111.108:63129, sid=72ba1e65 d21a6255
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 18:44:44 iv-splv-link ovpn-server[516]: 176.187.111.108:63129 [client1] Peer Connection Initiated with [AF_INET]176.187.111.108:63129
-May 18 18:44:44 iv-splv-link ovpn-server[516]: client1/176.187.111.108:63129 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
-May 18 18:44:44 iv-splv-link ovpn-server[516]: client1/176.187.111.108:63129 MULTI: Learn: 10.8.0.10 -> client1/176.187.111.108:63129
-May 18 18:44:44 iv-splv-link ovpn-server[516]: client1/176.187.111.108:63129 MULTI: primary virtual IP for client1/176.187.111.108:63129: 10.8.0.10
-May 18 18:44:47 iv-splv-link ovpn-server[516]: client1/176.187.111.108:63129 PUSH: Received control message: 'PUSH_REQUEST'
-May 18 18:44:47 iv-splv-link ovpn-server[516]: client1/176.187.111.108:63129 send_push_reply(): safe_cap=940
-May 18 18:44:47 iv-splv-link ovpn-server[516]: client1/176.187.111.108:63129 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
-May 18 18:50:15 iv-splv-link ovpn-server[516]: client1/176.187.111.108:63129 [client1] Inactivity timeout (--ping-restart), restarting
-May 18 18:50:15 iv-splv-link ovpn-server[516]: client1/176.187.111.108:63129 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 18 19:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 TLS: soft reset sec=0 bytes=82679/0 pkts=864/0
-May 18 19:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 19:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 19:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 19:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 19:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 19:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 19:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 20:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 20:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 20:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 20:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 20:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 20:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 20:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 21:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 21:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 18 21:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 21:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 21:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 18 21:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 18 21:12:01 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 18 21:30:31 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 [client1] Inactivity timeout (--ping-restart), restarting
-May 18 21:30:31 iv-splv-link ovpn-server[516]: client1/93.7.224.247:64941 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 19 09:08:09 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 TLS: Initial packet from [AF_INET]92.103.197.250:56795, sid=58a98a19 4c1cbdc9
-May 19 09:08:09 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 09:08:09 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 09:08:09 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 09:08:09 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 09:08:09 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 09:08:09 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 09:08:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 19 09:08:10 iv-splv-link ovpn-server[516]: 92.103.197.250:56795 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:56795
-May 19 09:08:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56795 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 19 09:08:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56795 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:56795
-May 19 09:08:10 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56795 MULTI: primary virtual IP for client1/92.103.197.250:56795: 10.8.0.6
-May 19 09:08:12 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56795 PUSH: Received control message: 'PUSH_REQUEST'
-May 19 09:08:12 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56795 send_push_reply(): safe_cap=940
-May 19 09:08:12 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56795 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 TLS: Initial packet from [AF_INET]92.103.197.250:51461, sid=f21cb539 8c9a00cc
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 19 09:24:19 iv-splv-link ovpn-server[516]: 92.103.197.250:51461 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:51461
-May 19 09:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
-May 19 09:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 MULTI: Learn: 10.8.0.10 -> client1/92.103.197.250:51461
-May 19 09:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 MULTI: primary virtual IP for client1/92.103.197.250:51461: 10.8.0.10
-May 19 09:24:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 PUSH: Received control message: 'PUSH_REQUEST'
-May 19 09:24:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 send_push_reply(): safe_cap=940
-May 19 09:24:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
-May 19 09:24:25 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 PUSH: Received control message: 'PUSH_REQUEST'
-May 19 09:29:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56795 [client1] Inactivity timeout (--ping-restart), restarting
-May 19 09:29:16 iv-splv-link ovpn-server[516]: client1/92.103.197.250:56795 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 19 09:45:22 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 TLS: Initial packet from [AF_INET]92.103.197.250:47223, sid=2260d51f f0e372b5
-May 19 09:45:23 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 09:45:23 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=pierrick, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 09:45:23 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 09:45:23 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 09:45:23 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 09:45:23 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 09:45:23 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 19 09:45:23 iv-splv-link ovpn-server[516]: 92.103.197.250:47223 [pierrick] Peer Connection Initiated with [AF_INET]92.103.197.250:47223
-May 19 09:45:23 iv-splv-link ovpn-server[516]: pierrick/92.103.197.250:47223 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 19 09:45:23 iv-splv-link ovpn-server[516]: pierrick/92.103.197.250:47223 MULTI: Learn: 10.8.0.6 -> pierrick/92.103.197.250:47223
-May 19 09:45:23 iv-splv-link ovpn-server[516]: pierrick/92.103.197.250:47223 MULTI: primary virtual IP for pierrick/92.103.197.250:47223: 10.8.0.6
-May 19 09:45:24 iv-splv-link ovpn-server[516]: pierrick/92.103.197.250:47223 PUSH: Received control message: 'PUSH_REQUEST'
-May 19 09:45:24 iv-splv-link ovpn-server[516]: pierrick/92.103.197.250:47223 send_push_reply(): safe_cap=940
-May 19 09:45:24 iv-splv-link ovpn-server[516]: pierrick/92.103.197.250:47223 SENT CONTROL [pierrick]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 19 10:07:47 iv-splv-link ovpn-server[516]: pierrick/92.103.197.250:47223 [pierrick] Inactivity timeout (--ping-restart), restarting
-May 19 10:07:47 iv-splv-link ovpn-server[516]: pierrick/92.103.197.250:47223 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 19 10:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 TLS: soft reset sec=0 bytes=740474/0 pkts=2226/0
-May 19 10:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 10:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 10:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 10:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 10:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 10:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 10:24:19 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51461 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 19 10:33:04 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 TLS: Initial packet from [AF_INET]92.103.197.250:54238, sid=34541cb0 26509a43
-May 19 10:33:09 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 10:33:09 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 10:33:09 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 10:33:09 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 10:33:09 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 10:33:09 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 10:33:09 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 19 10:33:09 iv-splv-link ovpn-server[516]: 92.103.197.250:54238 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:54238
-May 19 10:33:09 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54238 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 19 10:33:09 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54238 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:54238
-May 19 10:33:09 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54238 MULTI: primary virtual IP for client1/92.103.197.250:54238: 10.8.0.6
-May 19 10:33:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54238 PUSH: Received control message: 'PUSH_REQUEST'
-May 19 10:33:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54238 send_push_reply(): safe_cap=940
-May 19 10:33:11 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54238 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
-May 19 10:39:45 iv-splv-link systemd[1]: Stopping System Logging Service...
-May 19 10:39:45 iv-splv-link systemd[1]: Starting System Logging Service...
-May 19 10:39:45 iv-splv-link systemd[1]: Started System Logging Service.
-May 19 10:41:36 iv-splv-link systemd[1]: Stopping System Logging Service...
-May 19 10:41:36 iv-splv-link systemd[1]: Starting System Logging Service...
-May 19 10:41:36 iv-splv-link systemd[1]: Started System Logging Service.
-May 19 10:41:38 iv-splv-link systemd[1]: Stopping System Logging Service...
-May 19 10:41:38 iv-splv-link systemd[1]: Starting System Logging Service...
-May 19 10:41:38 iv-splv-link systemd[1]: Started System Logging Service.
-May 19 10:44:26 iv-splv-link systemd[1]: Stopping System Logging Service...
-May 19 10:44:26 iv-splv-link systemd[1]: Starting System Logging Service...
-May 19 10:44:26 iv-splv-link systemd[1]: Started System Logging Service.
-May 19 10:45:59 iv-splv-link systemd[1]: Stopping System Logging Service...
-May 19 10:45:59 iv-splv-link systemd[1]: Starting System Logging Service...
-May 19 10:45:59 iv-splv-link systemd[1]: Started System Logging Service.
-May 19 10:48:14 iv-splv-link systemd[1]: Stopping System Logging Service...
-May 19 10:48:14 iv-splv-link systemd[1]: Starting System Logging Service...
-May 19 10:48:14 iv-splv-link systemd[1]: Started System Logging Service.
-May 19 10:58:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54238 [client1] Inactivity timeout (--ping-restart), restarting
-May 19 10:58:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54238 SIGUSR1[soft,ping-restart] received, client-instance restarting
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 TLS: Initial packet from [AF_INET]92.103.197.250:65503, sid=beebc6bf 7dac283d
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
-May 19 10:58:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65503 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:65503
-May 19 10:58:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65503 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
-May 19 10:58:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65503 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:65503
-May 19 10:58:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65503 MULTI: primary virtual IP for client1/92.103.197.250:65503: 10.8.0.6
-May 19 10:58:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65503 PUSH: Received control message: 'PUSH_REQUEST'
-May 19 10:58:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65503 send_push_reply(): safe_cap=940
-May 19 10:58:48 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65503 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 21 14:30:01 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
+May 21 14:30:01 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 TLS: Initial packet from [AF_INET]176.187.111.108:55971, sid=fd898417 4b3451a1
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 21 18:56:22 iv-splv-link ovpn-server[516]: 176.187.111.108:55971 [client1] Peer Connection Initiated with [AF_INET]176.187.111.108:55971
+May 21 18:56:22 iv-splv-link ovpn-server[516]: client1/176.187.111.108:55971 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 21 18:56:22 iv-splv-link ovpn-server[516]: client1/176.187.111.108:55971 MULTI: Learn: 10.8.0.6 -> client1/176.187.111.108:55971
+May 21 18:56:22 iv-splv-link ovpn-server[516]: client1/176.187.111.108:55971 MULTI: primary virtual IP for client1/176.187.111.108:55971: 10.8.0.6
+May 21 18:56:25 iv-splv-link ovpn-server[516]: client1/176.187.111.108:55971 PUSH: Received control message: 'PUSH_REQUEST'
+May 21 18:56:25 iv-splv-link ovpn-server[516]: client1/176.187.111.108:55971 send_push_reply(): safe_cap=940
+May 21 18:56:25 iv-splv-link ovpn-server[516]: client1/176.187.111.108:55971 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 21 19:00:25 iv-splv-link ovpn-server[516]: client1/176.187.111.108:55971 [client1] Inactivity timeout (--ping-restart), restarting
+May 21 19:00:25 iv-splv-link ovpn-server[516]: client1/176.187.111.108:55971 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 22 08:52:34 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 TLS: Initial packet from [AF_INET]92.103.197.250:53440, sid=68a22b64 249cb2d6
+May 22 08:52:35 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 08:52:35 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 08:52:35 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 08:52:35 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 08:52:35 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 08:52:35 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 08:52:35 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 08:52:35 iv-splv-link ovpn-server[516]: 92.103.197.250:53440 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:53440
+May 22 08:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 22 08:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:53440
+May 22 08:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 MULTI: primary virtual IP for client1/92.103.197.250:53440: 10.8.0.6
+May 22 08:52:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 PUSH: Received control message: 'PUSH_REQUEST'
+May 22 08:52:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 send_push_reply(): safe_cap=940
+May 22 08:52:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 TLS: Initial packet from [AF_INET]92.103.197.250:51892, sid=19b290c5 30fec613
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 09:37:14 iv-splv-link ovpn-server[516]: 92.103.197.250:51892 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:51892
+May 22 09:37:14 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51892 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
+May 22 09:37:14 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51892 MULTI: Learn: 10.8.0.10 -> client1/92.103.197.250:51892
+May 22 09:37:14 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51892 MULTI: primary virtual IP for client1/92.103.197.250:51892: 10.8.0.10
+May 22 09:37:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51892 PUSH: Received control message: 'PUSH_REQUEST'
+May 22 09:37:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51892 send_push_reply(): safe_cap=940
+May 22 09:37:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51892 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
+May 22 09:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 09:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 09:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 09:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 09:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 09:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 09:52:35 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 10:21:14 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 [client1] Inactivity timeout (--ping-restart), restarting
+May 22 10:21:14 iv-splv-link ovpn-server[516]: client1/92.103.197.250:53440 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 TLS: Initial packet from [AF_INET]92.103.197.250:52510, sid=128590d9 b6b150c5
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 10:21:15 iv-splv-link ovpn-server[516]: 92.103.197.250:52510 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:52510
+May 22 10:21:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52510 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 22 10:21:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52510 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:52510
+May 22 10:21:15 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52510 MULTI: primary virtual IP for client1/92.103.197.250:52510: 10.8.0.6
+May 22 10:21:18 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52510 PUSH: Received control message: 'PUSH_REQUEST'
+May 22 10:21:18 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52510 send_push_reply(): safe_cap=940
+May 22 10:21:18 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52510 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 22 10:35:02 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51892 [client1] Inactivity timeout (--ping-restart), restarting
+May 22 10:35:02 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51892 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 TLS: Initial packet from [AF_INET]92.103.197.250:64269, sid=84bc4d60 617b8bad
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 11:10:05 iv-splv-link ovpn-server[516]: 92.103.197.250:64269 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:64269
+May 22 11:10:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
+May 22 11:10:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 MULTI: Learn: 10.8.0.10 -> client1/92.103.197.250:64269
+May 22 11:10:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 MULTI: primary virtual IP for client1/92.103.197.250:64269: 10.8.0.10
+May 22 11:10:08 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 PUSH: Received control message: 'PUSH_REQUEST'
+May 22 11:10:08 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 send_push_reply(): safe_cap=940
+May 22 11:10:08 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
+May 22 11:10:17 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52510 [client1] Inactivity timeout (--ping-restart), restarting
+May 22 11:10:17 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52510 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 TLS: Initial packet from [AF_INET]92.103.197.250:51251, sid=3d11200b 5488e617
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 11:46:21 iv-splv-link ovpn-server[516]: 92.103.197.250:51251 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:51251
+May 22 11:46:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 22 11:46:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:51251
+May 22 11:46:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 MULTI: primary virtual IP for client1/92.103.197.250:51251: 10.8.0.6
+May 22 11:46:22 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 PUSH: Received control message: 'PUSH_REQUEST'
+May 22 11:46:22 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 send_push_reply(): safe_cap=940
+May 22 11:46:22 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 22 12:10:05 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 TLS: soft reset sec=0 bytes=37276/0 pkts=710/0
+May 22 12:10:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 12:10:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 12:10:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 12:10:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 12:10:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 12:10:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 12:10:06 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 12:25:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 [client1] Inactivity timeout (--ping-restart), restarting
+May 22 12:25:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:64269 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 22 12:46:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 TLS: soft reset sec=0 bytes=1962043/0 pkts=3852/0
+May 22 12:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 12:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 12:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 12:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 12:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 12:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 12:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 13:07:38 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 TLS: Initial packet from [AF_INET]92.103.197.250:52225, sid=23074087 4efec946
+May 22 13:07:46 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 13:07:46 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 13:07:46 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 13:07:46 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 13:07:46 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 13:07:46 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 13:07:46 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 13:07:46 iv-splv-link ovpn-server[516]: 92.103.197.250:52225 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:52225
+May 22 13:07:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52225 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
+May 22 13:07:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52225 MULTI: Learn: 10.8.0.10 -> client1/92.103.197.250:52225
+May 22 13:07:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52225 MULTI: primary virtual IP for client1/92.103.197.250:52225: 10.8.0.10
+May 22 13:07:49 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52225 PUSH: Received control message: 'PUSH_REQUEST'
+May 22 13:07:49 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52225 send_push_reply(): safe_cap=940
+May 22 13:07:49 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52225 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
+May 22 13:22:30 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52225 [client1] Inactivity timeout (--ping-restart), restarting
+May 22 13:22:30 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52225 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 22 13:46:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 TLS: tls_process: killed expiring key
+May 22 13:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 TLS: soft reset sec=0 bytes=128007/0 pkts=1456/0
+May 22 13:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 13:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 13:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 13:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 13:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 13:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 13:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 14:30:01 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
+May 22 14:30:01 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
+May 22 14:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 TLS: soft reset sec=0 bytes=125807/0 pkts=1446/0
+May 22 14:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 14:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 14:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 14:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 14:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 14:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 14:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 15:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 TLS: soft reset sec=0 bytes=116192/0 pkts=1392/0
+May 22 15:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 15:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 15:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 15:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 15:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 15:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 15:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 16:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 TLS: soft reset sec=0 bytes=1884622/0 pkts=3729/0
+May 22 16:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 16:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 22 16:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 16:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 16:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 22 16:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 22 16:46:26 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 22 17:01:14 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 [client1] Inactivity timeout (--ping-restart), restarting
+May 22 17:01:14 iv-splv-link ovpn-server[516]: client1/92.103.197.250:51251 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 TLS: Initial packet from [AF_INET]92.103.197.250:65482, sid=0807e078 bd22a1ee
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 23 09:20:31 iv-splv-link ovpn-server[516]: 92.103.197.250:65482 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:65482
+May 23 09:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 23 09:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:65482
+May 23 09:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 MULTI: primary virtual IP for client1/92.103.197.250:65482: 10.8.0.6
+May 23 09:20:32 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 PUSH: Received control message: 'PUSH_REQUEST'
+May 23 09:20:32 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 send_push_reply(): safe_cap=940
+May 23 09:20:32 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 23 10:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 TLS: soft reset sec=0 bytes=2132394/0 pkts=4067/0
+May 23 10:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 10:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 10:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 10:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 10:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 10:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 10:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 23 11:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 TLS: soft reset sec=0 bytes=1843571/0 pkts=3557/0
+May 23 11:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 11:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 11:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 11:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 11:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 11:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 11:20:31 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 23 12:09:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 [client1] Inactivity timeout (--ping-restart), restarting
+May 23 12:09:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65482 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 23 13:39:22 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 TLS: Initial packet from [AF_INET]92.103.197.250:54562, sid=ba529bf1 03658fce
+May 23 13:39:31 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 13:39:31 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 13:39:32 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 13:39:32 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 13:39:32 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 13:39:32 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 13:39:34 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 23 13:39:34 iv-splv-link ovpn-server[516]: 92.103.197.250:54562 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:54562
+May 23 13:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 23 13:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:54562
+May 23 13:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 MULTI: primary virtual IP for client1/92.103.197.250:54562: 10.8.0.6
+May 23 13:39:36 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 PUSH: Received control message: 'PUSH_REQUEST'
+May 23 13:39:36 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 send_push_reply(): safe_cap=940
+May 23 13:39:36 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 23 14:30:10 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
+May 23 14:30:10 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
+May 23 14:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 14:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 14:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 14:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 14:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 14:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 14:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 23 15:39:33 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 TLS: tls_process: killed expiring key
+May 23 15:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 TLS: soft reset sec=0 bytes=130310/0 pkts=1170/0
+May 23 15:39:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 15:39:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 15:39:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 15:39:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 15:39:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 15:39:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 15:39:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 23 16:39:34 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 TLS: tls_process: killed expiring key
+May 23 16:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 16:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 16:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 16:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 16:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 16:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 16:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 23 17:39:37 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 TLS: tls_process: killed expiring key
+May 23 17:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 17:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 23 17:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 17:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 17:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 23 17:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 23 17:39:38 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 23 17:46:12 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 [client1] Inactivity timeout (--ping-restart), restarting
+May 23 17:46:12 iv-splv-link ovpn-server[516]: client1/92.103.197.250:54562 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 24 09:56:52 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 TLS: Initial packet from [AF_INET]92.103.197.250:63014, sid=68787aa3 53487ac3
+May 24 09:56:53 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 09:56:53 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 09:56:53 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 09:56:53 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 09:56:53 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 09:56:53 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 09:56:53 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 24 09:56:53 iv-splv-link ovpn-server[516]: 92.103.197.250:63014 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:63014
+May 24 09:56:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 24 09:56:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:63014
+May 24 09:56:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 MULTI: primary virtual IP for client1/92.103.197.250:63014: 10.8.0.6
+May 24 09:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 PUSH: Received control message: 'PUSH_REQUEST'
+May 24 09:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 send_push_reply(): safe_cap=940
+May 24 09:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 24 10:56:52 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 10:56:52 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 10:56:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 10:56:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 10:56:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 10:56:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 10:56:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 24 11:56:52 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 TLS: tls_process: killed expiring key
+May 24 11:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 11:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 11:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 11:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 11:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 11:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 11:56:54 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 24 12:20:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 [client1] Inactivity timeout (--ping-restart), restarting
+May 24 12:20:53 iv-splv-link ovpn-server[516]: client1/92.103.197.250:63014 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 24 13:02:44 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 TLS: Initial packet from [AF_INET]92.103.197.250:65250, sid=6ab36b87 bdee470d
+May 24 13:02:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 13:02:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 13:02:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 13:02:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 13:02:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 13:02:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 13:02:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 24 13:02:45 iv-splv-link ovpn-server[516]: 92.103.197.250:65250 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:65250
+May 24 13:02:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65250 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 24 13:02:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65250 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:65250
+May 24 13:02:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65250 MULTI: primary virtual IP for client1/92.103.197.250:65250: 10.8.0.6
+May 24 13:02:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65250 PUSH: Received control message: 'PUSH_REQUEST'
+May 24 13:02:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65250 send_push_reply(): safe_cap=940
+May 24 13:02:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65250 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 24 13:10:36 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65250 [client1] Inactivity timeout (--ping-restart), restarting
+May 24 13:10:36 iv-splv-link ovpn-server[516]: client1/92.103.197.250:65250 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 24 14:00:19 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 TLS: Initial packet from [AF_INET]92.103.197.250:52164, sid=32fb515e 3c27c2fb
+May 24 14:00:20 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 14:00:20 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 14:00:20 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 14:00:20 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 14:00:20 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 14:00:20 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 14:00:20 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 24 14:00:20 iv-splv-link ovpn-server[516]: 92.103.197.250:52164 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:52164
+May 24 14:00:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52164 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+May 24 14:00:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52164 MULTI: Learn: 10.8.0.6 -> client1/92.103.197.250:52164
+May 24 14:00:20 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52164 MULTI: primary virtual IP for client1/92.103.197.250:52164: 10.8.0.6
+May 24 14:00:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52164 PUSH: Received control message: 'PUSH_REQUEST'
+May 24 14:00:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52164 send_push_reply(): safe_cap=940
+May 24 14:00:21 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52164 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 TLS: Initial packet from [AF_INET]92.103.197.250:59436, sid=e7cbdd80 275e71e3
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 24 14:16:45 iv-splv-link ovpn-server[516]: 92.103.197.250:59436 [client1] Peer Connection Initiated with [AF_INET]92.103.197.250:59436
+May 24 14:16:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
+May 24 14:16:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 MULTI: Learn: 10.8.0.10 -> client1/92.103.197.250:59436
+May 24 14:16:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 MULTI: primary virtual IP for client1/92.103.197.250:59436: 10.8.0.10
+May 24 14:16:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 PUSH: Received control message: 'PUSH_REQUEST'
+May 24 14:16:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 send_push_reply(): safe_cap=940
+May 24 14:16:47 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.10.10.0 255.255.255.0,route 10.8.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.10 10.8.0.9' (status=1)
+May 24 14:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52164 [client1] Inactivity timeout (--ping-restart), restarting
+May 24 14:19:55 iv-splv-link ovpn-server[516]: client1/92.103.197.250:52164 SIGUSR1[soft,ping-restart] received, client-instance restarting
+May 24 14:30:19 iv-splv-link systemd[1]: Starting Cleanup of Temporary Directories...
+May 24 14:30:19 iv-splv-link systemd[1]: Started Cleanup of Temporary Directories.
+May 24 15:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 15:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 15:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 15:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 15:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 15:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 15:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+May 24 16:16:45 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 TLS: tls_process: killed expiring key
+May 24 16:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 VERIFY OK: depth=1, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=INTECH CA, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 16:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 VERIFY OK: depth=0, C=FR, ST=IleDeFrance, L=Paris, O=INTECH, OU=Technologues, CN=client1, name=EasyRSA, emailAddress=link@intechinfo.fr
+May 24 16:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 16:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 16:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+May 24 16:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+May 24 16:16:46 iv-splv-link ovpn-server[516]: client1/92.103.197.250:59436 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA

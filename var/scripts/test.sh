@@ -1,6 +1,16 @@
-#! /bin/bash
-a=$(grep 100.100.100.100:88 /etc/openvpn/openvpn-status.log)
-if [[ -z "$a" ]]
-then
-	echo "100.100.100.100:88" >> /var/scripts/supersion/A_tuer
+#!/bin/bash
+if [ -s nomdossier ]; then
+        choix=$1
+        if [ $choix == "1" ]; then
+                sed -n /'windows'/p nomdossier
+        fi
+        if [ $choix == "2" ]; then
+                sed -n /'mac'/p nomdossier
+        fi
+else
+        for fichier in /home/$2/*
+        do
+                echo $(basename $fichier .${fichier##*.}) >> nomdossier
+        done
 fi
+

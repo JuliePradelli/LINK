@@ -25,3 +25,8 @@
 2017-05-02 13:19:14 status half-configured systemd:i386 215-17+deb8u6
 2017-05-02 13:19:14 status installed systemd:i386 215-17+deb8u6
 2017-05-02 13:19:14 startup packages configure
+2017-05-23 14:33:11 startup archives install
+2017-05-23 14:33:11 install php-cli:all <aucune> 1:7.0+52
+2017-05-23 14:33:11 status half-installed php-cli:all 1:7.0+52
+2017-05-23 14:33:11 status unpacked php-cli:all 1:7.0+52
+2017-05-23 14:33:11 status unpacked php-cli:all 1:7.0+52

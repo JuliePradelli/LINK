@@ -68,3 +68,17 @@ lease {
   rebind 4 2017/05/25 06:13:05;
   expire 5 2017/05/26 12:13:05;
 }
+lease {
+  interface "eth0";
+  fixed-address 10.10.10.156;
+  option subnet-mask 255.255.255.0;
+  option routers 10.10.10.254;
+  option dhcp-lease-time 864000;
+  option dhcp-message-type 5;
+  option domain-name-servers 8.8.8.8;
+  option dhcp-server-identifier 10.10.10.161;
+  option domain-name "local";
+  renew 3 2017/05/24 16:07:53;
+  rebind 1 2017/05/29 05:51:21;
+  expire 2 2017/05/30 11:51:21;
+}

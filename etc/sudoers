@@ -13,13 +13,13 @@ Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 # Host alias specification
 
 # User alias specification
-
+		
 # Cmnd alias specification
-
+Cmnd_Alias	WWW = /bin/echo, /usr/bin/cut, /bin/cat, /bin/grep, /usr/bin/awk, /usr/bin/print, /usr/bin/mutt, /bin/chown, /bin/chmod, /bin/mkdir, /usr/sbin/useradd, /usr/bin/openssl, /bin/sed, /usr/bin/basename, /bin/bash, /usr/bin/touch
+Cmnd_Alias	SCRIPTS = /var/scripts/script_user.sh, /var/scripts/script_revocation.sh, /var/scripts/script_supervision.sh, /var/scripts/source.sh, /var/scripts/script_vpn.sh, /var/scripts/script_filename.sh
 # User privilege specification
 root	ALL=(ALL:ALL) ALL
-www-data	ALL= NOPASSWD: /bin/echo, /usr/bin/cut, /bin/cat, /bin/grep, /usr/bin/awk, /usr/bin/print, /usr/bin/mutt, /var/scripts/script_user.sh, /bin/chown, /bin/chmod, /bin/mkdir, /usr/sbin/useradd, /usr/bin/openssl
-
+www-data	ALL= NOPASSWD: WWW, NOPASSWD: SCRIPTS
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) ALL
 

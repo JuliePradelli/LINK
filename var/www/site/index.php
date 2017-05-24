@@ -77,6 +77,15 @@ if($_SERVER['QUERY_STRING'] != "")
 				case 'admin_projets':
 					include_once("controleur/admin_projets.php");
 					break;
+				case 'admin_modifs':
+					include_once("controleur/admin_modifs.php");
+					break;
+				case 'admin_revocation':
+					include_once("controleur/admin_revocation.php");
+					break;
+				case 'admin_validation':
+					include_once("controleur/admin_validation.php");
+					break;
 				case 'mot_de_passe':
 					include_once("controleur/mot_de_passe.php");
 					break;
@@ -118,6 +127,12 @@ if($_SERVER['QUERY_STRING'] != "")
 				case 'deconnexion':
 					include_once("controleur/deconnexion.php");
 					break;
+				case 'telechargement_win':
+					include_once("controleur/telechargement_win.php");
+					break;
+				case 'telechargement_mac':
+                                        include_once("controleur/telechargement_mac.php");
+                                        break;
 				default:
 					include_once("vue/page_default.php");
 			}

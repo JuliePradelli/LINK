@@ -6281,6 +6281,27 @@ Description: Userspace interface to kernel DRM services -- runtime
  .
  This package provides the runtime environment for libdrm.
 
+Package: php-cli
+Status: install ok unpacked
+Priority: optional
+Section: php
+Installed-Size: 12
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: all
+Source: php-defaults (52)
+Version: 1:7.0+52
+Depends: php7.0-cli
+Description: command-line interpreter for the PHP scripting language (default)
+ This package provides the /usr/bin/php command interpreter, useful for
+ testing PHP scripts from a shell or performing general shell scripting tasks.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ This package is a dependency package, which depends on Debian's default
+ PHP version (currently 7.0).
+
 Package: isc-dhcp-client
 Status: install ok installed
 Priority: important

@@ -54,16 +54,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.php?page=mot_de_passe">Changement mot de passe</a>
+                        <a href="index.php?page=mot_de_passe">Modification mot de passe</a>
                     </li>
 		    <li>
                         <a class="page-scroll" href="#about">Téléchargement</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Tutoriel</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Vérification</a>
+                        <a class="page-scroll" href="#services" class"dropdown">Tutoriel</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="index.php?page=deconnexion">Déconnexion</a>
@@ -76,7 +73,7 @@
     </nav>
 
     <header>
-        <br/><br/><br/><?php if(isset ($alerte)) {echo $alerte;} ?><br/><br/><br/>
+        <?php if(isset ($alerte)) {echo $alerte;} ?><br/><br/>
 	<div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">LINK</h1></div><br>
@@ -94,16 +91,16 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Choissisez le fichier compressé en fonction de votre système d'exploitation</h2>
                     <hr class="light">
-<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+<!--<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
   Télecharger
-</button>
-<div class="collapse" id="collapseExample">
-  <div class="well" style="background-color: #999;">
-    Windows :
-<br>	    
-Mac OS :
+</button>-->
+<!--<div class="collapse" id="collapseExample">-->
+  <div class="well" style="background-color: #e9dfde;">
+<a href='index.php?page=telechargement_win'><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4MCA0ODA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMC4xNzYsMjI0TDAuMDAxLDY3Ljk2M2wxOTItMjYuMDcyVjIyNEgwLjE3NnogTTIyNC4wMDEsMzcuMjQxTDQ3OS45MzcsMHYyMjRIMjI0LjAwMVYzNy4yNDF6IE00NzkuOTk5LDI1NmwtMC4wNjIsMjI0ICAgbC0yNTUuOTM2LTM2LjAwOFYyNTZINDc5Ljk5OXogTTE5Mi4wMDEsNDM5LjkxOEwwLjE1Nyw0MTMuNjIxTDAuMTQ3LDI1NmgxOTEuODU0VjQzOS45MTh6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" /></a>
+<br><br>	    
+<a href="index.php?page=telechargement_mac"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEzLjgwMiAxMy44MDIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEzLjgwMiAxMy44MDI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTAuNjY4LDcuMzMzYy0wLjAxOC0xLjc0OSwxLjQyNi0yLjU4NiwxLjQ5LTIuNjI4Yy0wLjgxMS0xLjE4NS0yLjA3My0xLjM0OC0yLjUyNC0xLjM2NiAgICBjLTEuMDczLTAuMTEtMi4wOTYsMC42MzItMi42NDIsMC42MzJjLTAuNTQ0LDAtMS4zODYtMC42MTctMi4yNzctMC42MDFDMy41NDMsMy4zODgsMi40NjQsNC4wNTIsMS44Niw1LjEgICAgYy0xLjIxNywyLjExMi0wLjMxMiw1LjI0LDAuODc0LDYuOTU1YzAuNTgsMC44MzgsMS4yNzIsMS43NzksMi4xNzksMS43NDZjMC44NzQtMC4wMzUsMS4yMDQtMC41NjYsMi4yNjEtMC41NjYgICAgczEuMzU0LDAuNTY2LDIuMjc4LDAuNTQ5YzAuOTQxLTAuMDE4LDEuNTM2LTAuODU1LDIuMTExLTEuNjk1YzAuNjY2LTAuOTczLDAuOTQtMS45MTYsMC45NTctMS45NjMgICAgQzEyLjQ5OCwxMC4xMTQsMTAuNjg3LDkuNDIxLDEwLjY2OCw3LjMzM3oiIGZpbGw9IiMwMDAwMDAiLz4KCQk8cGF0aCBkPSJNOC45MywyLjIwNEM5LjQxMSwxLjYyMSw5LjczNywwLjgwOSw5LjY0OCwwQzguOTUzLDAuMDI4LDguMTE0LDAuNDYxLDcuNjE1LDEuMDQ1ICAgIEM3LjE2OCwxLjU2Miw2Ljc3OSwyLjM4Nyw2Ljg4MywzLjE4QzcuNjU3LDMuMjQxLDguNDQ5LDIuNzg2LDguOTMsMi4yMDR6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" /></a>
   </div>
-</div>
+<!--</div>-->
                    <!-- <a href="index.php?page=user_inscription" class="page-scroll btn btn-default btn-xl sr-button">Bouton ou mettre les fichiers zip</a> -->
                 </div>
             </div>

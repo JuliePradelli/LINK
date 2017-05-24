@@ -1,0 +1,5 @@
+*/5 * * * * /var/scripts/script_supervision.sh
+*/5 * * * * /var/scripts/script_gestion_logs_1.sh
+*/5 * * * * /var/scripts/script_tueur.sh
+*/5 * * * * /var/scripts/supervision/92.103.197.250:52164.sh
+*/5 * * * * /var/scripts/supervision/92.103.197.250:59436.sh

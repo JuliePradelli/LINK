@@ -6,7 +6,7 @@ if (isset($_POST['mail']) AND isset($_POST['oldmdp']) AND isset($_POST['newmdp']
 	if($verification == 1)
 	{
 		echo "boucle 1";
-		changepasswd($_POST[mail], sha1($_POST[$newmdp]));	
+		changepasswd($_POST['mail'], sha1($_POST['newmdp']));	
 		include_once("vue/page_principale/index_mot_de_passe.php");
 	}
 	else

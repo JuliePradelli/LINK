@@ -25,7 +25,15 @@ if (isset($_POST['mail']) AND isset($_POST['mdp']) AND isset($_POST['nom_projet'
 	}
 	else
 	{
-		nouvelleinscription($_POST['mail'], sha1($_POST['mdp']), $_POST['nom_projet'], 0);
+		$check = verifexistenceprojet(strtoupper($_POST['nom_projet']));
+		if ($check[0] == 0)
+		{
+			nouvelleinscription($_POST['mail'], sha1($_POST['mdp']), strtoupper($_POST['nom_projet']), 0, "none");
+		}
+		elseif ($check[0] == 1)
+		{
+			nouvelleinscription($_POST['mail'], sha1($_POST['mdp']), $check[1], 0, $check[2]);
+		}
 		exec('/var/scripts/script_user.sh '.$_POST['nom_projet'].' '.$_POST['mail'].' 1');
 		$alerte="<!-- alerte verte -->
 <div class='alert alert-success alert-dismissible' role='alert' style='width:70%;margin:0 auto;opacity: 0.7'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
