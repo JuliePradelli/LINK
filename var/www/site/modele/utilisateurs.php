@@ -7,7 +7,23 @@ function recup_infos()
 	$i = 0;
 	while ($donnees = $reponse->fetch())
 	{
-		$table[$i] ="<tr><td><input type=\"radio\" name=\"radio\" value=\"".$donnees['iduser']."\"></td><td>".$donnees['mail']."</td><td>".$donnees['etat']."</td><td>".$donnees['validation']."</td><td>".$donnees['nom']."</td></tr>";
+		if($donnees['validation'] == 0)
+		{
+			$validation = "Non validé";	
+		}
+		else
+		{
+			$validation = "Validé";
+		}
+		if($donnees['etat'] == 0)
+		{
+			$etat = "Déconnecté";
+		}
+		else
+		{
+			$etat = "Connecté";
+		}
+		$table[$i] ="<tr><td><input type=\"radio\" name=\"radio\" value=\"".$donnees['iduser']."\"></td><td>".$donnees['mail']."</td><td>".$etat."</td><td>".$validation."</td><td>".$donnees['nom']."</td></tr>";
 		$i++;
 	}
 	return $table;

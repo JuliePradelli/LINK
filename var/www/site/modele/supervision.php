@@ -7,7 +7,9 @@ function recup_infos()
 	$table = array();
 	while ($donnees = $reponse->fetch())
 	{
-		$table[$i] ="<tr><td>".$donnees['source']."</td><td>".$donnees['destinataire']."</td><td>".$donnees['date_debut']."</td><td>".$donnees['date_fin']."</td><td>".$donnees['proto']."</td><td>".$donnees['nom_projet']."</td></tr>";
+		$source = split(':', $donnees['source']);
+		$date_fin = split(' ', $donnees['date_fin']);
+		$table[$i] ="<tr><td>".$source[0]."</td><td>".$donnees['destinataire']."</td><td>".$donnees['date_debut']."</td><td>".$date_fin[0]." ".$date_fin[1]." ".$date_fin[2]." ".$date_fin[4]."</td><td>".$donnees['proto']."</td><td>".$donnees['nom_projet']."</td></tr>";
 		$i++;
 	}
 	return $table;

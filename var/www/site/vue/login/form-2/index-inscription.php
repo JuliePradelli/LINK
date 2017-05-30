@@ -77,10 +77,6 @@
                                         <label class="sr-only" for="form-password">Projet</label>
                                         <input type="text" name="nom_projet" placeholder="Nom de votre projet..." class="form-password form-control" id="form-password">
                                     </div>
-                                    <div class="form-group">
-                                        <label class="sr-only" for="form-password">IP de la ou les machines séparées par un espace...</label>
-                                        <input type="" name="ips" placeholder="IP de la ou les machines séparées par un espace..." class="form-control" id="">
-                                    </div>
 			                        <button type="submit" class="btn">Inscription</button>
 			                    </form>
 		                    </div>

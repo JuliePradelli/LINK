@@ -36,3 +36,11 @@ gofast:x:1006:1006::/home/gofast:/bin/false
 a:x:1007:1007::/home/a:/bin/false
 li:x:1008:1008::/home/li:/bin/false
 LI:x:1009:1009::/home/LI:/bin/false
+nonconnu:x:1010:1010::/home/nonconnu:/bin/false
+aze:x:1011:1011::/home/aze:/bin/false
+ar:x:1012:1012::/home/ar:/bin/false
+AR:x:1013:1013::/home/AR:/bin/false
+ra:x:1014:1014::/home/ra:/bin/false
+b:x:1015:1015::/home/b:/bin/false
+c:x:1016:1016::/home/c:/bin/false
+d:x:1017:1017::/home/d:/bin/false

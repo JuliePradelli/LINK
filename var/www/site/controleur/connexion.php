@@ -11,6 +11,11 @@ if (isset($_POST['mail']) AND isset($_POST['mdp']))
 		{
 			$_SESSION['pseudo'] = $_POST['mail'];
 			$_SESSION['role'] = "admin";
+			include_once("modele/tdb.php");
+			$nb_users = recup_nb_users();
+			$nb_projets = recup_nb_projets();
+			$nb_certificats = recup_nb_certificats();
+			$attente = recup_nb_attente();
 			include_once("vue/admin/pages/tdb.php");
 		}
 		else

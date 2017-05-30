@@ -1,0 +1,18 @@
+#! /bin/bash
+
+### BEGIN INIT INFO
+# Provides:          link_iptables
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# X-Start-Before:    kdm gdm3 xdm lightdm
+# X-Stop-After:      kdm gdm3 xdm lightdm
+# Default-Start:     3 4 5
+# Default-Stop:     0 1 2 6 
+# Short-Description: Rewrite iptables after reboot
+# Description:       Given above
+### END INIT INFO
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+iptables -t filter -A FORWARD -m state --state ESTABLISHED,RELATED -j LOG --log-prefix='[link-supervision]'
+iptables -t filter -A FORWARD -m state --state NEW -i tun0 -o tun0 -p udp --dport 1194 -j LOG --log-prefix='[link-supervision]'

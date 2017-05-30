@@ -59,9 +59,14 @@
 		    <li>
                         <a class="page-scroll" href="#about">Téléchargement</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#services" class"dropdown">Tutoriel</a>
-                    </li>
+                    <li class="dropdown">
+                        <!--<a class="page-scroll" href="#services">Tutoriel</a>-->
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tutoriel</a>
+<ul class="dropdown-menu">
+            <li><a href="#pour-linux">Linux</a></li>
+            <li><a href="#pour-windows">Windows</a></li>
+            <li><a href="#pour-mac-os">Mac OS</a></li>
+          </ul>
                     <li>
                         <a class="page-scroll" href="index.php?page=deconnexion">Déconnexion</a>
                     </li>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin - Projets</title>
+    <title>Admin</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vue/admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Projets</a>
+                <a class="navbar-brand" href="index.html">LINK - Admin</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -77,10 +77,10 @@
                             <a href="index.php?page=admin_tdb"><i class="fa fa-dashboard fa-fw"></i> Tableau de bord</a>
                         </li>
                         <li>
-                            <a href="index.php?page=admin_utilisateurs"><i class="fa fa-user fa-fw"></i> Utilisateurs</a>
+                            <a href="index.php?page=admin_utilisateurs"><i class="fa fa-eye fa-fw"></i> Supervision</a>
                         </li>
                         <li>
-                            <a href="index.php?page=admin_projets"><i class="fa fa-send fa-fw"></i> Projets</a>
+                            <a href="index.php?page=admin_projets"><i class="fa fa-user fa-fw"></i> Utilisateurs</a>
                         </li>
 			<li>
                             <a href="index.php?page=admin_revocation"><i class="fa fa-times-circle  fa-fw"></i> Révocation</a>

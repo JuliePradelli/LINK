@@ -18,4 +18,11 @@ function validation($id)
 	$bdd = connexion_bdd("link");
 	$bdd->exec("UPDATE users SET validation=1 WHERE iduser=".$id);	
 }
+function projet($id)
+{
+	$bdd = connexion_bdd("link");
+	$reponse = $bdd->query('SELECT projets.nom FROM users JOIN projets ON users.projet_idprojet=projets.idprojet WHERE users.iduser='.$id);
+	$donnees = $reponse->fetch();
+	return $donnees['nom'];
+}
 ?>

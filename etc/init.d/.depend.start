@@ -1,8 +1,9 @@
-TARGETS = rsyslog php5-fpm open-vm-tools motd killprocs openvpn mysql nginx atd cron ssh dbus rsync acpid exim4 postfix bootlogs single rc.local rmnologin
+TARGETS = rsyslog php5-fpm open-vm-tools motd killprocs openvpn mysql nginx link_iptables atd cron ssh dbus rsync acpid exim4 postfix bootlogs single rc.local rmnologin
 INTERACTIVE = openvpn
 openvpn: rsyslog
 mysql: rsyslog
 nginx: rsyslog
+link_iptables: rsyslog
 atd: rsyslog
 cron: rsyslog
 ssh: rsyslog
@@ -12,5 +13,5 @@ acpid: rsyslog
 exim4: rsyslog mysql
 postfix: rsyslog mysql
 single: killprocs motd bootlogs
-rc.local: openvpn rsyslog exim4 mysql php5-fpm open-vm-tools nginx postfix atd motd bootlogs cron ssh dbus rsync acpid
-rmnologin: openvpn rsyslog exim4 mysql php5-fpm open-vm-tools nginx postfix atd motd bootlogs cron ssh dbus rsync acpid
+rc.local: openvpn rsyslog exim4 mysql php5-fpm open-vm-tools nginx link_iptables postfix atd motd bootlogs cron ssh dbus rsync acpid
+rmnologin: openvpn rsyslog exim4 mysql php5-fpm open-vm-tools nginx link_iptables postfix atd motd bootlogs cron ssh dbus rsync acpid

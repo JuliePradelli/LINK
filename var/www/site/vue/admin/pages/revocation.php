@@ -2,7 +2,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Revocation</h1>
+                    <h1 class="page-header">Révocation</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -30,7 +30,7 @@
 						$l = count($table); 
 						for($i = 0; $i < $l; $i++)
 						{
-							echo "<tr><td><input type=\"radio\" name=\"radio\"></td><td>".$table[$i]."</td><td>";
+							echo "<tr><td><input type=\"radio\" name=\"radio\" value=\"".$table[$i]."\"></td><td>".$table[$i]."</td><td>";
 							$le = count($tablebis[$i]);
 							for($j = 0; $j <= $le; $j++)
 							{

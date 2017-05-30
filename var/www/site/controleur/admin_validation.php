@@ -8,7 +8,9 @@ if(! isset($_POST['radio']))
 else
 {
 	validation($_POST['radio']);
-	$table = recup_users(); 
+	$table = recup_users();
+	$nomprojet = projet($_POST['radio']);
+	exec("/var/scripts/script_vpn.sh ".$nomprojet);
 	include_once("vue/admin/pages/validation.php");
 }
 ?>

@@ -1,17 +1,11 @@
-May 21 06:25:02 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="29186" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
-May 21 06:30:01 iv-splv-link rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
-May 21 06:30:01 iv-splv-link rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
-May 21 11:15:01 iv-splv-link rsyslogd-2007: action 'action 17' suspended, next retry is Sun May 21 11:15:31 2017 [try http://www.rsyslog.com/e/2007 ]
-May 22 06:25:02 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="29186" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
-May 22 06:30:01 iv-splv-link rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
-May 22 06:30:01 iv-splv-link rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
-May 22 09:46:01 iv-splv-link rsyslogd-2007: action 'action 17' suspended, next retry is Mon May 22 09:46:31 2017 [try http://www.rsyslog.com/e/2007 ]
-May 23 06:25:02 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="29186" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
-May 23 06:25:02 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="29186" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
-May 23 06:30:01 iv-splv-link rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
-May 23 06:30:01 iv-splv-link rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
-May 23 10:15:01 iv-splv-link rsyslogd-2007: action 'action 17' suspended, next retry is Tue May 23 10:15:31 2017 [try http://www.rsyslog.com/e/2007 ]
-May 24 06:25:01 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="29186" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
-May 24 06:30:01 iv-splv-link rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
-May 24 06:30:01 iv-splv-link rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
-May 24 10:30:01 iv-splv-link rsyslogd-2007: action 'action 17' suspended, next retry is Wed May 24 10:30:31 2017 [try http://www.rsyslog.com/e/2007 ]
+May 29 06:25:02 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="29186" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May 29 06:26:41 iv-splv-link rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
+May 29 06:26:41 iv-splv-link rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
+May 29 08:20:01 iv-splv-link rsyslogd-2007: action 'action 17' suspended, next retry is Mon May 29 08:20:31 2017 [try http://www.rsyslog.com/e/2007 ]
+May 29 15:40:07 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="29186" x-info="http://www.rsyslog.com"] exiting on signal 15.
+May 29 15:40:07 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="13555" x-info="http://www.rsyslog.com"] start
+May 29 19:00:01 iv-splv-link rsyslogd-2007: action 'action 19' suspended, next retry is Mon May 29 19:00:31 2017 [try http://www.rsyslog.com/e/2007 ]
+May 30 06:25:02 iv-splv-link rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="13555" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May 30 06:29:44 iv-splv-link rsyslogd0: action 'action 19' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
+May 30 06:29:44 iv-splv-link rsyslogd-2359: action 'action 19' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
+May 30 10:10:01 iv-splv-link rsyslogd-2007: action 'action 19' suspended, next retry is Tue May 30 10:10:31 2017 [try http://www.rsyslog.com/e/2007 ]
